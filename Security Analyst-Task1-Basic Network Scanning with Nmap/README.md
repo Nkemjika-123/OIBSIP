@@ -315,3 +315,140 @@ The service version scan revealed detailed information about the services runnin
 - **Metasploitable Root Shell (Port 1524)**
 
 The discovered versions provide valuable information for vulnerability assessment and future penetration testing activities.
+
+## 3. OS Detection Scan
+
+### Command
+
+```bash
+sudo nmap -O 10.0.2.5 -oN OS-detection-scan.txt
+cat OS-detection-scan.txt
+```
+
+### Results
+
+```text
+Starting Nmap 7.98 (https://nmap.org) at 2026-10-07 04:32 -0400
+
+Nmap scan report for 10.0.2.5
+Host is up (0.00040s latency).
+
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+
+MAC Address: 08:00:27:1F:04:20 (Oracle VirtualBox virtual NIC)
+
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.33
+Network Distance: 1 hop
+```
+
+### Observation
+
+The OS detection scan identified the target as a **Linux-based operating system** running a **Linux 2.6.x kernel**. Nmap estimated the operating system version to be between **Linux 2.6.9 and 2.6.33**.
+
+Key observations:
+
+- The target is a **general-purpose Linux host**.
+- The detected kernel version is **very old and outdated**.
+- The system is only **1 network hop away**, indicating it is located on the same local network.
+- The scan confirmed the presence of numerous open services, increasing the attack surface.
+- The MAC address vendor was identified as **Oracle VirtualBox**, indicating the target is running as a virtual machine.
+
+---
+
+# Open Ports, Services, Versions and Security Risks
+
+| Port | State | Service | Version | Security Risk / Description |
+|--------|--------|--------|--------|--------|
+| 21 | Open | FTP | vsftpd 2.3.4 | FTP transfers files between systems. This outdated version may contain known vulnerabilities and transmits credentials without encryption. |
+| 22 | Open | SSH | OpenSSH 4.7p1 | SSH provides secure remote administration. This version is outdated and should be checked for known vulnerabilities and weak configurations. |
+| 23 | Open | Telnet | Linux telnetd | Telnet provides remote access but does not encrypt traffic, making it a significant security risk. |
+| 25 | Open | SMTP | Postfix smtpd | SMTP handles email delivery. Misconfigurations may allow abuse such as spam relaying. |
+| 53 | Open | DNS | ISC BIND 9.4.2 | DNS resolves domain names. This outdated version may contain known vulnerabilities. |
+| 80 | Open | HTTP | Apache 2.2.8 | Hosts web services and applications. This Apache version is outdated and increases attack exposure. |
+| 111 | Open | RPCbind | RPC 2 | RPCbind maps RPC services and may reveal information useful to attackers. |
+| 139 | Open | NetBIOS/SMB | Samba 3.x-4.x | Provides file and printer sharing services. Outdated versions may expose sensitive resources. |
+| 445 | Open | SMB | Samba 3.x-4.x | Network file-sharing service that should be assessed for vulnerabilities and weak permissions. |
+| 512 | Open | rexec | netkit-rsh rexecd | Legacy remote command execution service that lacks modern security protections. |
+| 513 | Open | login | Unidentified | Remote login service that may expose credentials if improperly secured. |
+| 514 | Open | shell | Unidentified | Remote shell service that is considered insecure and outdated. |
+| 1099 | Open | Java RMI | GNU Classpath grmiregistry | Enables remote Java object communication. Improper exposure can create security risks. |
+| 1524 | Open | Bindshell | Metasploitable Root Shell | Provides direct remote shell access and represents a critical security risk. |
+| 2049 | Open | NFS | NFS v2-v4 | Network file-sharing service that may expose sensitive files if misconfigured. |
+| 2121 | Open | FTP | ProFTPD 1.3.1 | Outdated FTP server that should be assessed for vulnerabilities. |
+| 3306 | Open | MySQL | MySQL 5.0.51a | Database service that should not typically be exposed externally. This version is outdated. |
+| 5432 | Open | PostgreSQL | PostgreSQL 8.3.x | Database service running an old version with potential security weaknesses. |
+| 5900 | Open | VNC | Protocol 3.3 | Provides remote graphical access and may allow unauthorized access if poorly secured. |
+| 6000 | Open | X11 | Access Denied | Linux graphical display service that can introduce security concerns if exposed. |
+| 6667 | Open | IRC | UnrealIRCd | Chat service running an outdated version that should be evaluated for vulnerabilities. |
+| 8009 | Open | AJP13 | Apache JServ Protocol 1.3 | Connector between Apache and Tomcat. Misconfiguration can expose backend services. |
+| 8180 | Open | HTTP | Apache Tomcat/Coyote | Web application server that increases the attack surface if outdated or improperly configured. |
+
+---
+
+# Summary
+
+The Nmap scans revealed **23 open TCP ports** on the Metasploitable 2 target system. Multiple network services were identified, including:
+
+- FTP
+- SSH
+- Telnet
+- SMTP
+- DNS
+- HTTP
+- SMB
+- NFS
+- MySQL
+- PostgreSQL
+- VNC
+- Tomcat
+
+The service version scan showed that many applications are **outdated and intentionally vulnerable**, making the system suitable for penetration testing practice. Notable findings include:
+
+- **vsftpd 2.3.4**
+- **Samba 3.x**
+- **ProFTPD 1.3.1**
+- **UnrealIRCd**
+- **Apache Tomcat**
+- **MySQL 5.0.51a**
+- **Metasploitable Root Shell on Port 1524**
+
+The OS detection scan identified the target as a **Linux 2.6.x system** running inside an **Oracle VirtualBox virtual machine**. The large number of exposed services significantly increases the attack surface and provides multiple opportunities for further enumeration and vulnerability assessment.
+
+---
+
+# Save the Report Using Nano
+
+To save the file:
+
+1. Press **Ctrl + O**
+2. Press **Enter** to confirm the filename
+3. Press **Ctrl + X** to exit Nano
+
+### Verify the File Exists
+use cat nmap_scan_results.txt
