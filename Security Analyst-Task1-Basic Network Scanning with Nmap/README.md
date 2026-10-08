@@ -183,3 +183,11 @@ The command used was sudo nmap -O 10.0.2.5
 | 6667 | Open | IRC | UnrealIRCd | **IRC** provides real-time Internet chat communication. An exposed and outdated IRC service should be assessed for software vulnerabilities and unnecessary access. |
 | 8009 | Open | AJP13 | Apache JServ Protocol 1.3 | **AJP13** allows communication between a web server and an application server such as Tomcat. An exposed AJP service can present security risks if improperly configured. |
 | 8180 | Open | HTTP | Apache Tomcat/Coyote | **HTTP/Tomcat** provides web application services. An exposed application server increases the attack surface and should be assessed for outdated software, weak configuration and vulnerable applications. |
+
+The findings was documented in nmap_scan_results.txt file
+
+On  Kali terminal
+I created the file with:
+nano nmap_scan_results.txt
+This opens a text editor.
+
