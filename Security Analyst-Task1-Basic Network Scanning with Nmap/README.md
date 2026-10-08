@@ -59,6 +59,7 @@ which nmap
 
 ## Basic Nmap Scan
 A basic Nmap scan was performed against the Metasploitable 2 target and saved to basic-nmap-scan.txt
+
 The command used was: nmap 10.0.2.5
 
 ## Results
@@ -76,6 +77,7 @@ The command used was: nmap 10.0.2.5
 ## Service Version Scan
 
 A service version scan was performed against the Metasploitable 2 target to identify the services and software versions running on the open ports and saved to service-version-scan.txt.
+
 The command used was:
 nmap -sV 10.0.2.5 -oN service-version-scan.txt
 
