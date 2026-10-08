@@ -451,4 +451,4 @@ To save the file:
 3. Press **Ctrl + X** to exit Nano
 
 ### Verify the File Exists
-use cat nmap_scan_results.txt
+use **cat nmap_scan_results.txt**
