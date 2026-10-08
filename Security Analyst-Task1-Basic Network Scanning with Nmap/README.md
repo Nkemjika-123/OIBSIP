@@ -123,13 +123,14 @@ An OS detection scan was performed against the Metasploitable 2 target to identi
 The command used was sudo nmap -O 10.0.2.5
 
 ## Results
-screenshot
+![Security Analyst-Task1-Basic Network Scanning with Nmap](scanresult3.jpg)
 
 ## Observation
-- The host is reacheable.
+- The host is reachable.
 - The machine is running on OS details: Linux 2.6.9 - 2.6.33  which is an older version.
 - This proposes that the system is really vulnerable.
 
+## Open ports found and the service running on each
 | Port | State | Service |
 |------|-------|---------|
 | 21 | open | FTP |
@@ -155,3 +156,4 @@ screenshot
 | 6667 | open | IRC |
 | 8009 | open | AJP13 |
 | 8180 | open | HTTP |
+
