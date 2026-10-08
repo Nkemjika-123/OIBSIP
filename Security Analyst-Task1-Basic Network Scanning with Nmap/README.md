@@ -80,8 +80,7 @@ The command used was:
 nmap -sV 10.0.2.5 -oN service-version-scan.txt
 
 ## Results
-screenshot
-
+![Security Analyst-Task1-Basic Network Scanning with Nmap](scanresult2.jpg)
 ## Observations
 -	The target machine is from the family of Unix/Linux.
 -	Some of the versions are old
