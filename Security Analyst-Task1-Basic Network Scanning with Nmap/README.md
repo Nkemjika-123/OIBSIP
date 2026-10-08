@@ -87,3 +87,30 @@ screenshot
 -	Some of the versions are old
 -	There is root shell running which gives highly privileged access to the system.
 
+## Open Ports and Security Significance
+
+| Port | State | Service | Version | Security Significance |
+|------|-------|---------|---------|-----------------------|
+| 21 | Open | FTP | vsftpd 2.3.4 | Outdated service; requires further vulnerability assessment |
+| 22 | Open | SSH | OpenSSH 4.7p1 | Very old version; should be investigated |
+| 23 | Open | Telnet | Linux telnetd | Telnet is unencrypted |
+| 25 | Open | SMTP | Postfix smtpd | Mail service exposed; configuration should be assessed |
+| 53 | Open | DNS | ISC BIND 9.4.2 | Very old DNS software; requires further assessment |
+| 80 | Open | HTTP | Apache 2.2.8 | Very old web server; potentially significant attack surface |
+| 111 | Open | RPCbind | RPC 2 | Exposes RPC service information |
+| 139 | Open | NetBIOS/SMB | Samba 3.x–4.x | Network file-sharing service; requires security assessment |
+| 445 | Open | SMB | Samba 3.x–4.x | Network file-sharing service; potentially significant exposure |
+| 512 | Open | rexec | netkit-rsh rexecd | Legacy remote execution service |
+| 513 | Open | login | Unidentified | Legacy remote login service; requires investigation |
+| 514 | Open | shell | Unidentified | Legacy remote shell service; requires investigation |
+| 1099 | Open | Java RMI | GNU Classpath grmiregistry | Remote Java service; requires security assessment |
+| 1524 | Open | Bindshell | Metasploitable root shell | Gives high-privileged access |
+| 2049 | Open | NFS | NFS 2–4 | Network file system exposed |
+| 2121 | Open | FTP | ProFTPD 1.3.1 | Outdated FTP service; requires assessment |
+| 3306 | Open | MySQL | 5.0.51a | Very old database software |
+| 5432 | Open | PostgreSQL | 8.3.x | Very old database software |
+| 5900 | Open | VNC | Protocol 3.3 | Remote graphical access exposed |
+| 6000 | Open | X11 | Access denied | X11 service exposed |
+| 6667 | Open | IRC | UnrealIRCd | IRC service exposed |
+| 8009 | Open | AJP13 | Apache JServ Protocol 1.3 | Application-server connector exposed |
+| 8180 | Open | HTTP | Apache Tomcat/Coyote | Web application server exposed |
