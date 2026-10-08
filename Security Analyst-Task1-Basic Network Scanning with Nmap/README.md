@@ -49,6 +49,5 @@ Testing connection between the target and the attacker machines
 ## Nmap Installation
 Nmap was already pre-installed in the Kali Linux virtual machine used for this lab.
 The installation was verified using:
-```bash
 nmap –version
-```
+
