@@ -72,3 +72,18 @@ The command used was: nmap 10.0.2.5
 - Several remote-access and file/database services were accessible over the network.
 - Port 8180 was identified as open, but the service was unknown.
 - The MAC address was identified as `08:00:27:1F:04:20` (Oracle VirtualBox virtual NIC).
+
+## Service Version Scan
+
+A service version scan was performed against the Metasploitable 2 target to identify the services and software versions running on the open ports and saved to service-version-scan.txt.
+The command used was:
+nmap -sV 10.0.2.5 -oN service-version-scan.txt
+
+## Results
+screenshot
+
+## Observations
+-	The target machine is from the family of Unix/Linux.
+-	Some of the versions are old
+-	There is root shell running which gives highly privileged access to the system.
+
