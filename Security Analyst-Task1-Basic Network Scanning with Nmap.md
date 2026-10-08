@@ -1,8 +1,6 @@
 # Task 1: Basic Network Scanning with Nmap
 
-*What Nmap is, why network scanning matters, and ethical use guidelines*
-
-## About Nmap
+## What is Nmap?
 
 Nmap is also called Network Mapper. It is an open-source network scanning and security auditing tool. It is used to discover hosts and services on a network, identify open ports, detect running services and in some cases, determine the operating system of a target system.
 
