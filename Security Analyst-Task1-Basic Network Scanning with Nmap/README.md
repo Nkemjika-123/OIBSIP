@@ -192,3 +192,13 @@ I created the file with: nano nmap_scan_results.txt
 
 This opens a text editor.
 ![Security Analyst-Task1-Basic Network Scanning with Nmap](scanresult4.jpg)
+
+# NMAP Scan Results
+
+## Scan Information
+
+- **Target:** Metasploitable 2
+- **Target IP:** `10.0.2.5`
+- **Scanner:** Kali Linux
+- **Date:** 07/10/2026
+
