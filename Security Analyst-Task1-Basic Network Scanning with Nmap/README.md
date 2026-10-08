@@ -61,7 +61,7 @@ which nmap
 A basic Nmap scan was performed against the Metasploitable 2 target and saved to basic-nmap-scan.txt
 The command used was: nmap 10.0.2.5
 
-Results
+## Results
 screenshot
 
 ## Observation
