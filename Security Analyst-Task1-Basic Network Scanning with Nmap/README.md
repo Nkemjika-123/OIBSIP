@@ -56,3 +56,19 @@ The command confirmed that Nmap was installed and available for use.
 The location of the Nmap executable was also verified using:
 which nmap
 ![Security Analyst-Task1-Basic Network Scanning with Nmap](whichnmap.jpg)
+
+## Basic Nmap Scan
+A basic Nmap scan was performed against the Metasploitable 2 target and saved to basic-nmap-scan.txt
+The command used was: nmap 10.0.2.5
+
+Results
+screenshot
+
+## Observation
+
+- The target host was reachable, which means that it was up.
+- Nmap identified 23 open TCP ports among the 1,000 most common ports scanned.
+- Multiple network services were exposed, including FTP, SSH, Telnet, HTTP, DNS, SMB, NFS, MySQL, PostgreSQL, VNC, and IRC.
+- Several remote-access and file/database services were accessible over the network.
+- Port 8180 was identified as open, but the service was unknown.
+- The MAC address was identified as `08:00:27:1F:04:20` (Oracle VirtualBox virtual NIC).
