@@ -191,4 +191,4 @@ On  Kali terminal
 I created the file with: nano nmap_scan_results.txt
 
 This opens a text editor.
-
+![Security Analyst-Task1-Basic Network Scanning with Nmap](scanresult4.jpg)
