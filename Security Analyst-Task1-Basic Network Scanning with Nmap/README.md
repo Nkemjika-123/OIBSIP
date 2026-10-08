@@ -115,3 +115,43 @@ nmap -sV 10.0.2.5 -oN service-version-scan.txt
 | 6667 | Open | IRC | UnrealIRCd |
 | 8009 | Open | AJP13 | Apache JServ Protocol 1.3 |
 | 8180 | Open | HTTP | Apache Tomcat/Coyote |
+
+## OS Detection Scan
+
+An OS detection scan was performed against the Metasploitable 2 target to identify the operating system running on the host.
+
+The command used was sudo nmap -O 10.0.2.5
+
+## Results
+screenshot
+
+## Observation
+- The host is reacheable.
+- The machine is running on OS details: Linux 2.6.9 - 2.6.33  which is an older version.
+- This proposes that the system is really vulnerable.
+
+| Port | State | Service |
+|------|-------|---------|
+| 21 | open | FTP |
+| 22 | open | SSH |
+| 23 | open | Telnet |
+| 25 | open | SMTP |
+| 53 | open | DNS |
+| 80 | open | HTTP |
+| 111 | open | RPCbind |
+| 139 | open | NetBIOS/SMB |
+| 445 | open | SMB |
+| 512 | open | rexec |
+| 513 | open | login |
+| 514 | open | shell |
+| 1099 | open | Java RMI |
+| 1524 | open | Bindshell |
+| 2049 | open | NFS |
+| 2121 | open | FTP |
+| 3306 | open | MySQL |
+| 5432 | open | PostgreSQL |
+| 5900 | open | VNC |
+| 6000 | open | X11 |
+| 6667 | open | IRC |
+| 8009 | open | AJP13 |
+| 8180 | open | HTTP |
