@@ -51,4 +51,8 @@ Nmap was already pre-installed in the Kali Linux virtual machine used for this l
 The installation was verified using:
 nmap –version
 ![Security Analyst-Task1-Basic Network Scanning with Nmap](Nmapversion.jpg)
+The command confirmed that Nmap was installed and available for use.
+
+The location of the Nmap executable was also verified using:
+which nmap
 ![Security Analyst-Task1-Basic Network Scanning with Nmap](whichnmap.jpg)
