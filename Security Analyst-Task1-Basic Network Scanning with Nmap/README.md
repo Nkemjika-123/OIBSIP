@@ -157,3 +157,29 @@ The command used was sudo nmap -O 10.0.2.5
 | 8009 | open | AJP13 |
 | 8180 | open | HTTP |
 
+## Open ports, a brief explanation of what the service does and whether it poses a security risk
+| Port | State | Service | Version | What the Service Does / Security Risk |
+|------|-------|---------|---------|---------------------------------------|
+| 21 | Open | FTP | vsftpd 2.3.4 | **FTP** transfers files between systems. This old version may contain known vulnerabilities and FTP can transmit credentials without encryption. |
+| 22 | Open | SSH | OpenSSH 4.7p1 | **SSH** provides secure remote login and administration. This is a very old version and should be assessed for known vulnerabilities and weak configurations. |
+| 23 | Open | Telnet | Linux telnetd | **Telnet** provides remote command-line access. It is a high security risk because credentials and data are transmitted without encryption. |
+| 25 | Open | SMTP | Postfix smtpd | **SMTP** handles the sending and receiving of email. An exposed mail service can be abused if poorly configured and should be checked for open-relay and other configuration issues. |
+| 53 | Open | DNS | ISC BIND 9.4.2 | **DNS** translates domain names into IP addresses. This very old version may contain known vulnerabilities and should be assessed for insecure configuration. |
+| 80 | Open | HTTP | Apache 2.2.8 | **HTTP** provides web services and hosts websites/applications. This very old Apache version increases the attack surface and should be assessed for known vulnerabilities. |
+| 111 | Open | RPCbind | RPC 2 | **RPCbind** helps clients identify RPC services running on a system. Exposing RPC information can help an attacker identify additional services and potential attack paths. |
+| 139 | Open | NetBIOS/SMB | Samba 3.x–4.x | **NetBIOS/SMB** supports network file and printer sharing. An exposed and outdated SMB service may allow unauthorized access or information disclosure if poorly secured. |
+| 445 | Open | SMB | Samba 3.x–4.x | **SMB** provides network file and resource sharing. Exposure increases the attack surface and should be assessed for weak authentication, permissions and known vulnerabilities. |
+| 512 | Open | rexec | netkit-rsh rexecd | **rexec** allows remote command execution. It is a legacy service that presents a significant security risk because it lacks the security protections of modern remote-access protocols. |
+| 513 | Open | login | Unidentified | **Login/rlogin** provides remote login functionality. It is a legacy service and can expose credentials or remote access if not properly secured. |
+| 514 | Open | shell | Unidentified | **Remote shell (rsh)** allows commands to be executed remotely. It is a legacy and insecure protocol that presents a significant security risk. |
+| 1099 | Open | Java RMI | GNU Classpath grmiregistry | **Java RMI** enables Java applications to communicate with remote objects. An exposed RMI registry can create security risks if authentication and access controls are weak. |
+| 1524 | Open | Bindshell | Metasploitable root shell | A **bind shell** provides remote command-line access to the system. In this lab, it provides highly privileged access and therefore represents a critical security risk. |
+| 2049 | Open | NFS | NFS 2–4 | **NFS** allows filesystems to be shared over a network. If improperly configured, attackers may access, modify or mount sensitive files. |
+| 2121 | Open | FTP | ProFTPD 1.3.1 | **FTP** provides file-transfer functionality. This outdated ProFTPD version should be assessed for known vulnerabilities and insecure configurations. |
+| 3306 | Open | MySQL | 5.0.51a | **MySQL** provides database services for storing and managing application data. This very old version may contain known vulnerabilities and should not normally be directly exposed to untrusted networks. |
+| 5432 | Open | PostgreSQL | 8.3.x | **PostgreSQL** provides database services. This very old version presents increased security risk and should be assessed for vulnerabilities and access-control weaknesses. |
+| 5900 | Open | VNC | Protocol 3.3 | **VNC** provides remote graphical access to a computer. An exposed VNC service can allow unauthorized remote access if authentication or network restrictions are weak. |
+| 6000 | Open | X11 | Access denied | **X11** provides graphical display services for Linux/Unix systems. An exposed X11 service can create security risks because of potential unauthorized access to graphical sessions. |
+| 6667 | Open | IRC | UnrealIRCd | **IRC** provides real-time Internet chat communication. An exposed and outdated IRC service should be assessed for software vulnerabilities and unnecessary access. |
+| 8009 | Open | AJP13 | Apache JServ Protocol 1.3 | **AJP13** allows communication between a web server and an application server such as Tomcat. An exposed AJP service can present security risks if improperly configured. |
+| 8180 | Open | HTTP | Apache Tomcat/Coyote | **HTTP/Tomcat** provides web application services. An exposed application server increases the attack surface and should be assessed for outdated software, weak configuration and vulnerable applications. |
