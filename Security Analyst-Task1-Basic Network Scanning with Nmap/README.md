@@ -1,3 +1,12 @@
+# Objective 
+
+Perform a network scan to identify open ports and services running on a local machine or virtual machine using Nmap, and document your findings with security analysis.
+
+# Tech Stack / Tools
+
+Nmap, Linux terminal (or Windows PowerShell), a local VM (e.g., VirtualBox with Kali Linux or Ubuntu)
+
+
 # Task 1: Basic Network Scanning with Nmap
 
 ## What is Nmap?
