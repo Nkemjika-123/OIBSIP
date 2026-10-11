@@ -35,7 +35,7 @@ Open your Kali Linux terminal and run: ufw --version
 
 # Create a ufw_configuration.sh Script That Applies All Your Rules in Sequence (Runnable Script)
 
-## script `ufw_configuration.sh` was created to automate the process of firewall configuration.
+- script `ufw_configuration.sh` was created to automate the process of firewall configuration.
 
 ## Script
 
