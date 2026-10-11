@@ -23,7 +23,7 @@ Open your Kali Linux terminal and run: ufw --version
 # Configure rule to deny HTTP traffic (port 80): sudo ufw deny http
 
 # Add at least 2 additional rules of your choice (e.g., allow HTTPS, deny a specific IP range)
-## Sudo ufw allow https
+# Sudo ufw allow https
 
 # Sudo ufw deny from 10.0.2.5
 
