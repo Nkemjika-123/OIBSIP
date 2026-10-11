@@ -12,4 +12,4 @@ Set up and configure a basic firewall on a Linux system using UFW (Uncomplicated
 # Check Whether UFW Is Installed
 
 Open your Kali Linux terminal and run: ufw --version
-![Security Analyst-Task2-Basic Firewall Configuration with UFW]()
+![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig1.jpg)
