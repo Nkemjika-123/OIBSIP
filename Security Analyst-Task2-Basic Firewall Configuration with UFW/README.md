@@ -21,14 +21,14 @@ Open your Kali Linux terminal and run: ufw --version
 # Configure rule to allow SSH traffic (port 22): sudo ufw allow ssh
 ![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig5.jpg)
 # Configure rule to deny HTTP traffic (port 80): sudo ufw deny http
-
+![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig6.jpg)
 # Add at least 2 additional rules of your choice (e.g., allow HTTPS, deny a specific IP range)
 # Sudo ufw allow https
-
+![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig7.jpg)
 # Sudo ufw deny from 10.0.2.5
-
+![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig8.jpg)
 # Verify active rules: sudo ufw status verbose
-
+![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig9.jpg)
 # 9.	Test that denied traffic is actually blocked 
 
 # curl -v --connect-timeout 5 http://10.0.2.4
