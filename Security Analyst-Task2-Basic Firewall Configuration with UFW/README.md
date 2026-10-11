@@ -39,7 +39,7 @@ Open your Kali Linux terminal and run: ufw --version
 
 ## Script
 
-# #UFW Configuration Script
+- #UFW Configuration Script
 - sudo apt install -y ufw
 - sudo ufw --force enable
 - sudo ufw allow ssh
