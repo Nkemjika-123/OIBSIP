@@ -13,15 +13,15 @@ Set up and configure a basic firewall on a Linux system using UFW (Uncomplicated
 
 Open your Kali Linux terminal and run: ufw --version
 ![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig1.jpg)
-
-# Install UFW if not already present, run: sudo apt install ufw
 ![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig2.jpg)
-# Enable UFW: sudo ufw enable
+# Install UFW if not already present, run: sudo apt install ufw
 ![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig3.jpg)
-# Configure rule to allow SSH traffic (port 22): sudo ufw allow ssh
+# Enable UFW: sudo ufw enable
 ![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig4.jpg)
-# Configure rule to deny HTTP traffic (port 80): sudo ufw deny http
+# Configure rule to allow SSH traffic (port 22): sudo ufw allow ssh
 ![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig5.jpg)
+# Configure rule to deny HTTP traffic (port 80): sudo ufw deny http
+
 # Add at least 2 additional rules of your choice (e.g., allow HTTPS, deny a specific IP range)
 # Sudo ufw allow https
 
