@@ -29,20 +29,17 @@ Open your Kali Linux terminal and run: ufw --version
 ![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig8.jpg)
 # Verify active rules: sudo ufw status verbose
 ![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig9.jpg)
-# 9.	Test that denied traffic is actually blocked 
-
-# curl -v --connect-timeout 5 http://10.0.2.4
-
+# Test that denied traffic is actually blocked 
+## curl -v --connect-timeout 5 http://10.0.2.4
+![Security Analyst-Task2-Basic Firewall Configuration with UFW](FWConfig10.jpg)
 
 # Create a ufw_configuration.sh Script That Applies All Your Rules in Sequence (Runnable Script)
 
-# UFW Configuration Script
+## script `ufw_configuration.sh` was created to automate the process of firewall configuration.
 
-# script `ufw_configuration.sh` was created to automate the process of firewall configuration.
+## Script
 
-# Script
-
-# UFW Configuration Script
+# #UFW Configuration Script
 - sudo apt install -y ufw
 - sudo ufw --force enable
 - sudo ufw allow ssh
@@ -55,7 +52,6 @@ Open your Kali Linux terminal and run: ufw --version
 # Execution
 # This script was used to execute it.
 chmod +x ufw_configuration.sh
-
 
 - Run the script:
 
