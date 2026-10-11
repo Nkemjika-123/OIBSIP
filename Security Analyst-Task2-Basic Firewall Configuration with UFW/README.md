@@ -31,26 +31,26 @@ Open your Kali Linux terminal and run: ufw --version
 
 # 9.	Test that denied traffic is actually blocked 
 
-## curl -v --connect-timeout 5 http://10.0.2.4
+# curl -v --connect-timeout 5 http://10.0.2.4
 
 
 # Create a ufw_configuration.sh Script That Applies All Your Rules in Sequence (Runnable Script)
 
-## UFW Configuration Script
+# UFW Configuration Script
 
 # script `ufw_configuration.sh` was created to automate the process of firewall configuration.
 
-## Script
+# Script
 
 # UFW Configuration Script
-sudo apt install -y ufw
-sudo ufw --force enable
-sudo ufw allow ssh
-sudo ufw deny http
-sudo ufw allow https
-sudo ufw deny from 10.0.2.5
-sudo ufw status verbose
-curl -v --connect-timeout 5 http://10.0.2.4
+- sudo apt install -y ufw
+- sudo ufw --force enable
+- sudo ufw allow ssh
+- sudo ufw deny http
+- sudo ufw allow https
+- sudo ufw deny from 10.0.2.5
+- sudo ufw status verbose
+- curl -v --connect-timeout 5 http://10.0.2.4
 
 # Execution
 # This script was used to execute it.
