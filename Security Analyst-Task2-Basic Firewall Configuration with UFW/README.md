@@ -47,7 +47,6 @@ Open your Kali Linux terminal and run: ufw --version
 - sudo ufw allow https
 - sudo ufw deny from 10.0.2.5
 - sudo ufw status verbose
-- curl -v --connect-timeout 5 http://10.0.2.4
 
 # Execution
 # This script was used to execute it.
