@@ -115,4 +115,6 @@ Other security measures that can be taken are:
 -	Applying the principle of least privilege to database accounts ie giving only the necessary access that each user requires.
 -	Escaping user-supplied data where appropriate to prevent syntax error
 
-
+## Conclusion
+This exercise demonstrated how SQL Injection can be used to bypass codes that were used to set up an application and retrieve information that wasn’t authorized from a database.
+The vulnerability exists because user input is incorporated directly into SQL queries without proper validation or parametrization. 
