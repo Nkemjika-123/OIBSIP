@@ -102,6 +102,12 @@ Developers can prevent SQL Injection by using parameterised queries (prepared st
 ## An Example of a vulnerable statement
 $query = "SELECT * FROM users WHERE id = '$id'";
 
+## Secure Example Using Prepared Statements
+$stmt = $conn->prepare("SELECT * FROM users WHERE id = ?");
+$stmt->bind_param("i", $id);
+$stmt->execute();
+$result = $stmt->get_result();
+The ? is a parameter placeholder. The value is supplied separately, preventing it from changing the SQL query's structure.
 
 
 
