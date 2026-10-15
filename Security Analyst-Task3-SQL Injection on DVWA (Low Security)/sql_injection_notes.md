@@ -21,3 +21,14 @@ The purpose of this exercise was to show how the DVWA SQL Injection module respo
 ' OR '1'='1 #
 
 Purpose: Test whether an always-true condition can alter the logic of a SQL query.
+
+## Result Observed
+
+# screenshot
+
+## Data exposed: 
+
+The following information was exposed:
+-	User IDs
+-	First Names
+-	Surnames
