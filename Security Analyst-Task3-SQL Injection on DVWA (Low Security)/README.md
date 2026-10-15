@@ -110,5 +110,9 @@ $result = $stmt->get_result();
 
 The ? is a parameter placeholder. The value is supplied separately, preventing it from changing the SQL query's structure.
 
+Other security measures that can be taken are:
+-	Validate user input
+-	Applying the principle of least privilege to database accounts ie giving only the necessary access that each user requires.
+-	Escaping user-supplied data where appropriate to prevent syntax error
 
 
