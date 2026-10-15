@@ -82,9 +82,9 @@ SQL Injection is a web application vulnerability that occurs when user input is 
 
 ## Why This Payload Works
 
-The payload contains a condition that always evaluates to true. When the application inserts the payload into the SQL query without validating it, the query returns all records instead of only the requested record.
+This condition is always true. When the application inserts the payload into the SQL query without validating it, the query returns all records instead of only the requested record.
 
-The `#` character comments out the remainder of the SQL statement, preventing syntax errors and allowing the attack to succeed. 
+The # character comments out the remaining part of the SQL statement, this prevents any injected query or attack to succeed.
 
 ## Data Exposed 
 
