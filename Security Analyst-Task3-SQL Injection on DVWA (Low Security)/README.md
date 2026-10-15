@@ -29,9 +29,7 @@ The objective of this lab is to demonstrate SQL Injection vulnerability by explo
 ### sudo systemctl status mariadb
 ![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa8.jpg)
 ### sudo systemctl  restart apache2 and mariadb
-
-## screenshot
-
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa9.jpg)
 ### sudo git clone https://github.com/digininja/DVWA.git dvwa
 
 ## screenshot
