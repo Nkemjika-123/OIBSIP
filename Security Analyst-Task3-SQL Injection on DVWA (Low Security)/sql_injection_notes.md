@@ -20,7 +20,16 @@ The purpose of this exercise was to show how the DVWA SQL Injection module respo
 
 ' OR '1'='1 #
 
-Purpose: Test whether an always-true condition can alter the logic of a SQL query.
+## Analysis
+
+This payload exploits the SQL Injection vulnerability by inserting a condition that always evaluates to true.
+The expression:'1'='1'
+
+is always true, causing the database to ignore the search condition that you want to use and return all records from the user’s table.
+
+The OR operator changes the original SQL query so that any record that satisfies the condition is returned.
+
+As a result of this, the application disclosed multiple user records instead of information for a single user. This demonstrated that user input was not properly validated or sanitized before including it in the SQL query.
 
 ## Result Observed
 
@@ -32,3 +41,12 @@ The following information was exposed:
 -	User IDs
 -	First Names
 -	Surnames
+
+| User ID | First Name | Surname |
+|----------|------------|----------| 
+| 1 | admin | admin |
+| 2 | Gordon | Brown | 
+| 3 | Hack | Me | 
+| 4 | Pablo | Picasso | 
+| 5 | Bob | Smith |
+
