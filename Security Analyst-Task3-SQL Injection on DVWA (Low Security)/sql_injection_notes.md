@@ -68,8 +68,7 @@ The OR operator changes the original SQL query so that any record that satisfies
 As a result of this, the application disclosed multiple user records instead of information for a single user. This demonstrated that user input was not properly validated or sanitized before including it in the SQL query.
 
 ## Result Observed
-
-# screenshot
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa20.jpg)
 
 ## Data exposed: 
 
@@ -102,9 +101,7 @@ The OR operator causes the query to return records whenever either condition is 
 The # character comments out the other part of the SQL statement, this prevents syntax errors and allows the injected query to execute successfully.
 
 ## Result Observed
-
-# screenshot
-
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa21.jpg)
 ## Data exposed: 
 
 ## The following information was exposed:
