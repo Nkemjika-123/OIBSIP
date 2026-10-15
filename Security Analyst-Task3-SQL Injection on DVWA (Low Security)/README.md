@@ -95,9 +95,9 @@ The SQL Injection attack exposed user records stored in the DVWA database. Infor
 
   Instead of displaying a single user's information, the application returned multiple records from the database.
   
-  ## How to Fix This Vulnerability
+## How to Fix This Vulnerability
 
-  Developers can prevent SQL Injection by using parameterised queries (prepared statements) instead of directly inserting user input into SQL queries.
+Developers can prevent SQL Injection by using parameterised queries (prepared statements) instead of directly inserting user input into SQL queries.
 
 
 
