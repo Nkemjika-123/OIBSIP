@@ -93,7 +93,7 @@ The SQL Injection attack exposed user records stored in the DVWA database. Infor
 - First Names
 - Surnames
 
-  Instead of displaying a single user's information, the application returned multiple records from the database.
+The application returned multiple records from the database instead of displaying a single user's information.
   
 ## How to Fix This Vulnerability
 
@@ -107,6 +107,7 @@ $stmt = $conn->prepare("SELECT * FROM users WHERE id = ?");
 $stmt->bind_param("i", $id);
 $stmt->execute();
 $result = $stmt->get_result();
+
 The ? is a parameter placeholder. The value is supplied separately, preventing it from changing the SQL query's structure.
 
 
