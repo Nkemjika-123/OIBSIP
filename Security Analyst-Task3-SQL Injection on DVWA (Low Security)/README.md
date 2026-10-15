@@ -31,39 +31,25 @@ The objective of this lab is to demonstrate SQL Injection vulnerability by explo
 ### sudo systemctl  restart apache2 and mariadb
 ![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa9.jpg)
 ### sudo git clone https://github.com/digininja/DVWA.git dvwa
-
-## screenshot
-
-## Navigate to cd /var/www/html/dvwa/config to copy the config file using 
-## sudo cp config.inc.php.dist config.inc.php
-
-## screenshot
-
-## Create database using sudo mysql 
-
-## screenshot
-
-## Grant Permissions:
-## sudo chmod -R 777 /var/www/html/dvwa/hackable/uploads
-## sudo chmod -R 777 /var/www/html/dvwa/config
-
-## screenshot
-
-## sudo systemctl  restart apache2 and mariadb
-
-## screenshot
-
-## Click on create/reset database in this dvwa page
-
-## screenshot
-
-## Login with default username and password
-
-## screenshot
-
-## Set DVWA security level to Low 
-
-## screenshot
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa10.jpg)
+### Navigate to cd /var/www/html/dvwa/config to copy the config file using 
+### sudo cp config.inc.php.dist config.inc.php
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa11.jpg)
+### Create database using sudo mysql 
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa12.jpg)
+### Grant Permissions:
+### sudo chmod -R 777 /var/www/html/dvwa/hackable/uploads
+### sudo chmod -R 777 /var/www/html/dvwa/config
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa13.jpg)
+### sudo systemctl  restart apache2 and mariadb
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa14.jpg)
+### Click on create/reset database in this dvwa page
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa15.jpg)
+### Login with default username and password
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa16.jpg)
+### Set DVWA security level to Low 
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa17.jpg)
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa18.jpg)
 
 ## What is SQL Injection? 
 
