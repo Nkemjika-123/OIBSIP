@@ -33,7 +33,7 @@ As a result of this, the application disclosed multiple user records instead of 
 
 ## Result Observed
 
-# screenshot
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa19.jpg)
 
 ## Data exposed: 
 
