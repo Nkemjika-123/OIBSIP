@@ -14,12 +14,11 @@ The objective of this lab is to demonstrate SQL Injection vulnerability by explo
 
 ## Update before beginning the installation process
 
-## sudo apt update
+### sudo apt update
 ![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa1.jpg)
 
-## sudo systemctl  restart apache2 and mariadb
-
-## screenshot
+### sudo systemctl  restart apache2 and mariadb
+![Security Analyst-Task3-SQL Injection on DVWA (Low Security)](dvwa2.jpg)
 
 ## sudo systemctl enable --now apache2
 
