@@ -86,5 +86,36 @@ As a result of this, the application disclosed multiple user records instead of 
 | 4 | Pablo | Picasso | 
 | 5 | Bob | Smith |
 
+### Test 3: 
+### Payload:
 
+1' OR '2'='2' #
 
+## Analysis
+
+This payload exploits the SQL Injection vulnerability by injecting a condition that always evaluates to true.
+The expression: '2'='2'
+always returns TRUE. When the payload is inserted directly into an SQL query without validating or sanitizing the input, the query logic will be altered.
+
+The OR operator causes the query to return records whenever either condition is true. Since '2'='2' is always true, the database returns all available records instead of one single record.
+
+The # character comments out the other part of the SQL statement, this prevents syntax errors and allows the injected query to execute successfully.
+
+## Result Observed
+
+# screenshot
+
+## Data exposed: 
+
+## The following information was exposed:
+-	User IDs
+-	First Names
+- Surnames
+
+| User ID | First Name | Surname | 
+|----------|------------|----------| 
+| 1 | admin | admin | 
+| 2 | Gordon | Brown | 
+| 3 | Hack | Me | 
+| 4 | Pablo | Picasso | 
+| 5 | Bob | Smith |
