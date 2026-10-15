@@ -76,7 +76,28 @@ The objective of this lab is to demonstrate SQL Injection vulnerability by explo
 
 ## screenshot
 
+## What is SQL Injection? 
 
+SQL Injection is a web application vulnerability that occurs when user input is not properly validated or sanitised before being included in an SQL query. An attacker can insert malicious SQL code into an input field to manipulate the database and gain access to information that should not be available. 
+
+## Why This Payload Works
+
+The payload contains a condition that always evaluates to true. When the application inserts the payload into the SQL query without validating it, the query returns all records instead of only the requested record.
+
+The `#` character comments out the remainder of the SQL statement, preventing syntax errors and allowing the attack to succeed. 
+
+## Data Exposed 
+
+The SQL Injection attack exposed user records stored in the DVWA database. Information returned included:
+- User IDs
+- First Names
+- Surnames
+
+  Instead of displaying a single user's information, the application returned multiple records from the database.
+  
+  ## How to Fix This Vulnerability
+
+  Developers can prevent SQL Injection by using parameterised queries (prepared statements) instead of directly inserting user input into SQL queries.
 
 
 
