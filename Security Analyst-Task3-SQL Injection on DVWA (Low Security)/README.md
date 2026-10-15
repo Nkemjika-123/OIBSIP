@@ -29,5 +29,56 @@ The objective of this lab is to demonstrate SQL Injection vulnerability by explo
 
 ## screenshot
 
+## sudo systemctl status apache2
+
+## screenshot
+
+## sudo systemctl status mariadb
+
+## screenshot
+
+## sudo systemctl  restart apache2 and mariadb
+
+## screenshot
+
+## sudo git clone https://github.com/digininja/DVWA.git dvwa
+
+## screenshot
+
+## Navigate to cd /var/www/html/dvwa/config to copy the config file using 
+## sudo cp config.inc.php.dist config.inc.php
+
+## screenshot
+
+## Create database using sudo mysql 
+
+## screenshot
+
+## Grant Permissions:
+## sudo chmod -R 777 /var/www/html/dvwa/hackable/uploads
+## sudo chmod -R 777 /var/www/html/dvwa/config
+
+## screenshot
+
+## sudo systemctl  restart apache2 and mariadb
+
+## screenshot
+
+## Click on create/reset database in this dvwa page
+
+## screenshot
+
+## Login with default username and password
+
+## screenshot
+
+## Set DVWA security level to Low 
+
+## screenshot
+
+
+
+
+
 
 
