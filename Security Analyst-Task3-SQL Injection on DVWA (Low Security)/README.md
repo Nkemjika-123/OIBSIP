@@ -99,6 +99,8 @@ The SQL Injection attack exposed user records stored in the DVWA database. Infor
 
 Developers can prevent SQL Injection by using parameterised queries (prepared statements) instead of directly inserting user input into SQL queries.
 
+## An Example of a vulnerable statement
+$query = "SELECT * FROM users WHERE id = '$id'";
 
 
 
