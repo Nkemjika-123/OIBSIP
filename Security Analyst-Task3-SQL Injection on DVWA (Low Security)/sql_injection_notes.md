@@ -74,3 +74,16 @@ The following information was exposed:
 | 4 | Pablo | Picasso | 
 | 5 | Bob | Smith |
 
+## Analysis: 
+The expression 'a'='a' is always true. In MySQL/MariaDB, '#' can mark the rest of a line as a comment. 
+
+This payload exploits the SQL Injection vulnerability by inserting a condition that always evaluates to true.
+The expression:'a'='a'
+
+is always true, causing the database to ignore the search condition that you want to use and return all records from the user’s table.
+
+The OR operator changes the original SQL query so that any record that satisfies the condition is returned.
+
+As a result of this, the application disclosed multiple user records instead of information for a single user. This demonstrated that user input was not properly validated or sanitized before including it in the SQL query.
+
+
