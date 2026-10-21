@@ -29,10 +29,29 @@ According to Mitre Att&ck (n.d.), attackers perform network DoS attacks by exhau
 DDoS attacks can be categorized into three major types:
 -	Volumetric attacks that consume available bandwidth.
 -	Protocol attacks that exploit weaknesses in network protocols.
--	Application-layer attacks that target specific applications or services
+-	Application-layer attacks that target specific applications or services.
 
 # Real-World Example: The Dyn DDoS Attack (2016)
 
 On 21 October 2016, the DNS provider suffered a massive DDoS attack conducted through the Mirai botnet, which consisted of compromised Internet of Things (IoT) devices such as cameras, routers, and DVRs. The attack generated enormous volumes of malicious traffic, disrupting DNS services and causing outages for major websites and online services including Twitter, Spotify, Reddit, Netflix, PayPal, and GitHub. 
 
 The attack targeted Dyn's DNS infrastructure, causing widespread internet disruptions across North America and Europe. The attack demonstrated how vulnerable IoT devices could be weaponized to conduct large-scale DDoS attacks. 
+
+# Impact of DoS/DDoS Attacks
+
+DoS and DDoS attacks can have severe consequences for organizations like the following:
+-	Service outages, preventing legitimate users from accessing websites and applications. 
+-	Financial losses due to downtime, lost transactions and recovery costs. 
+-	Reputational damage when customers lose trust in an organization's ability to provide reliable services. 
+-	Operational disruption, particularly when critical systems become unavailable. 
+
+# Three Specific Mitigation Strategies
+
+1. Use DDoS Protection Services and Content Delivery Networks (CDNs)
+Mitre Att&ck recommends filtering attack traffic upstream through Internet Service Providers (ISPs), CDNs or specialized DDoS mitigation providers before it reaches the target network. 
+
+2. Implement Network Traffic Filtering and Monitoring
+Organizations should deploy firewalls, intrusion prevention systems, rate limiting and continuous network monitoring to identify abnormal traffic patterns and block malicious traffic before it affects services and Mitre Att&ck recommend filtering suspicious packets, ports and protocols associated with attacks.
+
+4. Increase Capacity and Build Redundancy
+Mitre Att&ck recommends managing network capacity, bandwidth and redundancy to reduce susceptibility to information-flooding attacks. Load balancing and redundant infrastructure can help absorb large traffic spikes and maintain service availability during an attack. 
