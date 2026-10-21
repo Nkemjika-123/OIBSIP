@@ -143,6 +143,7 @@ IP spoofing can significantly affect organizations and networks by:
 1. Implement Ingress and Egress Filtering (BCP 38)
    
 IP-level filtering techniques known as BCP 38 are recommended to block packets with spoofed source addresses before they leave or enter a network. This prevents attackers from sending traffic with forged IP addresses. 
+
 2. Deploy Anti-Spoofing Controls
 
 NIST SP 800-53 Control SC-16(2) specifically recommends implementing anti-spoofing mechanisms to prevent adversaries from falsifying security attributes and network identities. Organizations should use router-based source validation, access control lists (ACLs) and anti-spoofing technologies.
