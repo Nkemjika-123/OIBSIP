@@ -184,6 +184,7 @@ The impact of DNS Poisoning and Spoofing attacks can be the following:
 -	Loss of Trust and Business Disruption: Organizations may suffer reputational damage, service disruption and financial losses when users cannot safely reach legitimate services.
 
   # Three Specific Mitigation Strategies
+  
 1. Implement DNSSEC (DNS Security Extensions)
    The use of DNSSEC is recommended, which provides data integrity and source authentication for DNS records. DNSSEC helps      prevent attackers from successfully injecting forged DNS responses or poisoning DNS caches.
 
@@ -193,4 +194,19 @@ The impact of DNS Poisoning and Spoofing attacks can be the following:
 3. Secure DNS Administration with Strong Access Controls
    Organizations are advised to protect accounts that can modify DNS records, implement multi-factor authentication (MFA),      continuously monitor DNS changes and maintain visibility over domain ownership and DNS infrastructure. This reduces the      likelihood of unauthorized DNS modifications. 
 
+# Comparison of Common Network Security Threats
 
+
+## Comparison of Common Network Security Threats
+
+| Threat | Attack Vector | Who Is at Risk? | Difficulty to Execute | Ease of Mitigation |
+|---|---|---|---|---|
+
+| **DoS/DDoS Attacks** | Flooding a target with excessive traffic, often using botnets or reflection/amplification techniques to overwhelm network bandwidth or system resources.| Websites, online businesses, cloud services, internet service providers, and organizations that depend on network availability. | **Moderate to High.** A basic DoS attack may require limited resources, but a large-scale DDoS often requires a botnet or access to attack infrastructure. |**Moderate.** Firewalls and rate limits help, but large attacks may require upstream ISP filtering or specialized DDoS protection services. |
+| **Man-in-the-Middle (MITM) Attacks** | Intercepting or manipulating communications between two parties, for example through rogue Wi-Fi, ARP spoofing, DNS manipulation, or compromised network devices. | Users on untrusted networks, businesses, online banking customers, and organizations transmitting sensitive information. | **Moderate to High.** Difficulty depends on network access, security controls, and the attack method. | **Moderate to High.** HTTPS/TLS, certificate validation, secure authentication, and trusted networks reduce the risk significantly. |
+| **IP Spoofing** | Forging the source IP address in network packets to disguise the sender, impersonate another address, or support reflection/amplification attacks. | Network operators, internet-facing services, organizations exposed to reflection attacks, and systems that improperly trust source IP addresses. | **Moderate.** Creating packets with forged source addresses is technically straightforward in some environments, but successful attacks depend on network conditions and the intended objective. | **Moderate.** Ingress/egress filtering and anti-spoofing controls help, but spoofing may be difficult to trace or block during large distributed attacks. |
+| **DNS Poisoning/Spoofing** | Inserting false DNS information or sending forged DNS responses to direct users to incorrect or malicious IP addresses. | Website visitors, businesses, DNS resolvers, financial services, and organizations whose users depend on correct domain-name resolution. | **High.** Successful cache poisoning can require precise timing or exploitation of weaknesses in DNS configuration or implementation. Local DNS spoofing may be easier for an attacker with network access. | **Moderate to High.** DNSSEC validation, secure resolver configuration, software updates, and protected DNS administration reduce the risk, but implementation must be correct. |
+
+### Key Observation
+
+Although these threats differ in their methods, they can all affect the confidentiality, integrity, or availability of network services. Organizations should implement layered security controls, monitor network activity, maintain secure configurations, and prepare incident response procedures to reduce their exposure to these threats.
