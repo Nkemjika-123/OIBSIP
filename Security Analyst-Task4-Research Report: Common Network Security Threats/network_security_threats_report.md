@@ -63,3 +63,16 @@ Mitre Att&ck recommends managing network capacity, bandwidth and redundancy to r
 4.	MITRE ATT&CK. T1498: Network Denial of Service. https://attack.mitre.org/techniques/T1498/ 
 5.	DDoS on Dyn Impacts Twitter, Spotify, Reddit (2016). https://krebsonsecurity.com/2016/10/ddos-on-dyn-impacts-twitter-spotify-reddit/ 
 6.	Cybersecurity and Infrastructure Security Agency (CISA). Heightened DDoS Threat Posed by Mirai and Other Botnets (2017). https://www.cisa.gov/news-events/alerts/2016/10/14/heightened-ddos-threat-posed-mirai-and-other-botnets 
+
+# Man-in-the-Middle (MITM) Attacks
+
+A Man-in-the-Middle (MITM) attack occurs when attackers secretly position themselves between two networks and intercepts, monitors or alters the data being exchanged without realizing it. They can also intercept or alter data traveling between them. 
+
+According to Mitre Att&ck (n.d.), attackers use Man-in-the-Middle (T1557) techniques to place themselves between networked devices by exploiting protocols such as ARP, DNS, DHCP and name resolution services. This position allows attackers to perform activities including network sniffing, credential theft, session hijacking, traffic manipulation and replay attacks.
+
+Common MITM techniques include:
+•	ARP Cache Poisoning
+•	DNS Spoofing
+•	DHCP Spoofing
+•	Evil Twin (Rogue Wi-Fi) Access Points
+•	SSL/TLS Downgrade Attacks
