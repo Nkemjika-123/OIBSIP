@@ -30,3 +30,9 @@ DDoS attacks can be categorized into three major types:
 -	Volumetric attacks that consume available bandwidth.
 -	Protocol attacks that exploit weaknesses in network protocols.
 -	Application-layer attacks that target specific applications or services
+
+# Real-World Example: The Dyn DDoS Attack (2016)
+
+On 21 October 2016, the DNS provider suffered a massive DDoS attack conducted through the Mirai botnet, which consisted of compromised Internet of Things (IoT) devices such as cameras, routers, and DVRs. The attack generated enormous volumes of malicious traffic, disrupting DNS services and causing outages for major websites and online services including Twitter, Spotify, Reddit, Netflix, PayPal, and GitHub. 
+
+The attack targeted Dyn's DNS infrastructure, causing widespread internet disruptions across North America and Europe. The attack demonstrated how vulnerable IoT devices could be weaponized to conduct large-scale DDoS attacks. 
