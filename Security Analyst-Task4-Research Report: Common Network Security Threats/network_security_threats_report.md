@@ -123,3 +123,17 @@ IP spoofing is commonly used to:
 -	Bypass systems that rely on IP-based trust mechanisms. 
 
 Mitre Att&ck notes that adversaries may spoof network services such as DHCP servers or manipulate network traffic to redirect communications through attacker-controlled systems, enabling credential theft, network sniffing or traffic manipulation. 
+
+# Real-World Example: DNS Reflection DDoS Attacks Against KrebsOnSecurity
+
+In 2016, Dyn was targeted by one of the largest DDoS attacks recorded at the time. This attack relied heavily on IP spoofing. The Attackers sent DNS requests with the victim's IP address forged as the source address. Open DNS servers then send their responses to the victim instead of the attacker, creating a massive flood of unwanted traffic. 
+
+Reflection and amplification attacks are particularly dangerous because attackers can spoof source addresses and take advantage of infrastructures such as DNS and NTP servers to magnify attack traffic, generating attacks exceeding hundreds of gigabits per second. 
+
+# Impact of IP Spoofing
+
+IP spoofing can significantly affect organizations and networks by:
+-	Concealing attacker identity, making incident investigation and attribution more difficult. 
+-	Enabling DDoS reflection and amplification attacks, which can disrupt websites, services and critical infrastructure. 
+-	Facilitating traffic interception and redirection, thereby allowing attackers to steal sensitive information. 
+-	Bypassing weak IP-based authentication mechanisms, giving attackers unauthorized access opportunities. 
