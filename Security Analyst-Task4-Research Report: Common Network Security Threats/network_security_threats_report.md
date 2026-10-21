@@ -151,3 +151,12 @@ IP spoofing can significantly affect organizations and networks by:
 3. Use Secure Authentication and Network Monitoring
    
    This is recommended to strengthen network security through proper access controls, network segmentation, monitoring,         secure DNS configurations and reducing reliance on IP-based trust alone. Organizations should continuously watch out for     unusual network behavior and validate network traffic sources. 
+
+# References
+1.	National Institute of Standards and Technology (NIST). spoofing - Glossary | CSRC. https://csrc.nist.gov/glossary/term/spoofing [csrc.nist.gov]
+2.	National Institute of Standards and Technology (NIST). Advanced DDoS Mitigation Techniques. https://www.nist.gov/programs-projects/advanced-ddos-mitigation-techniques [nist.gov]
+3.	National Institute of Standards and Technology (NIST). SC-16 (2): Anti-spoofing Mechanisms. [csf.tools]
+4.	Cybersecurity and Infrastructure Security Agency (CISA). Mitigate DNS Infrastructure Tampering (2021). https://www.cisa.gov/resources-tools/resources/mitigate-dns-infrastructure-tampering [cisa.gov]
+5.	Cybersecurity and Infrastructure Security Agency (CISA). NSA and CISA Red and Blue Teams Share Top Ten Cybersecurity Misconfigurations (2023). https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-278a [cisa.gov]
+6.	MITRE ATT&CK. Adversary-in-the-Middle: DHCP Spoofing (T1557.003). https://attack.mitre.org/techniques/T1557/003/ [attack.mitre.org]
+7.	. KrebsOnSecurity Hit With Record DDoS (2016). https://krebsonsecurity.com/2016/09/krebsonsecurity-hit-with-record-ddos/ [krebsonsecurity.com]
