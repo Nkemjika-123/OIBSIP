@@ -121,3 +121,5 @@ IP spoofing is commonly used to:
 -	Support Distributed Denial-of-Service (DDoS) attacks. 
 -	Conduct reflection and amplification attacks by tricking servers into sending responses to a victim instead of the attacker.
 -	Bypass systems that rely on IP-based trust mechanisms. 
+
+Mitre Att&ck notes that adversaries may spoof network services such as DHCP servers or manipulate network traffic to redirect communications through attacker-controlled systems, enabling credential theft, network sniffing or traffic manipulation. 
