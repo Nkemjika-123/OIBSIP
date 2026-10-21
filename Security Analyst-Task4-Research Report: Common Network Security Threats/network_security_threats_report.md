@@ -94,7 +94,7 @@ Browsers trusted certificates issued by DigiNotar so victims thought that they w
 
 1. Use Strong Encryption (HTTPS/TLS)
 
-  Using modern TLS/SSL encryption protects data in transit. Encryption and digital certificates help ensure the                confidentiality and integrity of communications, making it significantly harder for attackers to intercept or modify         traffic. Organizations should disable outdated SSL versions and use latest TLS standards.
+   Using modern TLS/SSL encryption protects data in transit. Encryption and digital certificates help ensure the                confidentiality and integrity of communications, making it significantly harder for attackers to intercept or modify         traffic. Organizations should disable outdated SSL versions and use latest TLS standards.
 
 2. Implement Phishing-Resistant Multi-Factor Authentication (MFA)
 
