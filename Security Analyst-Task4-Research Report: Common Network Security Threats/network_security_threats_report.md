@@ -181,4 +181,16 @@ The impact of DNS Poisoning and Spoofing attacks can be the following:
 -	Credential Theft: Users may be redirected to fake websites that steal usernames, passwords, and financial information. 
 -	Traffic Interception: Attackers can inspect, modify, or monitor web and email communications.
 -	Malware Distribution: Victims can be redirected to malicious websites that distribute malware or ransomware. 
--	Loss of Trust and Business Disruption: Organizations may suffer reputational damage, service disruption and financial losses when users cannot safely reach legitimate services. 
+-	Loss of Trust and Business Disruption: Organizations may suffer reputational damage, service disruption and financial losses when users cannot safely reach legitimate services.
+
+  # Three Specific Mitigation Strategies
+1. Implement DNSSEC (DNS Security Extensions)
+   The use of DNSSEC is recommended, which provides data integrity and source authentication for DNS records. DNSSEC helps      prevent attackers from successfully injecting forged DNS responses or poisoning DNS caches.
+
+2. Use Protective DNS Services
+   The use of Protective DNS (PDNS) services is recommended because it analyzes DNS requests and blocks access to known         malicious domains. Protective DNS can prevent users from reaching malicious destinations even when attackers attempt DNS-    based attacks.
+
+3. Secure DNS Administration with Strong Access Controls
+   Organizations are advised to protect accounts that can modify DNS records, implement multi-factor authentication (MFA),      continuously monitor DNS changes and maintain visibility over domain ownership and DNS infrastructure. This reduces the      likelihood of unauthorized DNS modifications. 
+
+
