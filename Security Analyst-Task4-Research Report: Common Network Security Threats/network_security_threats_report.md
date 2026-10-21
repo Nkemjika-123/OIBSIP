@@ -53,5 +53,13 @@ Mitre Att&ck recommends filtering attack traffic upstream through Internet Servi
 2. Implement Network Traffic Filtering and Monitoring
 Organizations should deploy firewalls, intrusion prevention systems, rate limiting and continuous network monitoring to identify abnormal traffic patterns and block malicious traffic before it affects services and Mitre Att&ck recommend filtering suspicious packets, ports and protocols associated with attacks.
 
-4. Increase Capacity and Build Redundancy
+3. Increase Capacity and Build Redundancy
 Mitre Att&ck recommends managing network capacity, bandwidth and redundancy to reduce susceptibility to information-flooding attacks. Load balancing and redundant infrastructure can help absorb large traffic spikes and maintain service availability during an attack. 
+
+# References
+1.	National Institute of Standards and Technology (NIST). Denial of Service (DoS) Glossary. https://csrc.nist.gov/glossary/term/denial_of_service.
+2.	National Institute of Standards and Technology (NIST). Distributed Denial of Service (DDoS) Glossary. https://csrc.nist.gov/glossary/term/distributed_denial_of_service 
+3.	Cybersecurity and Infrastructure Security Agency (CISA). Understanding and Responding to Distributed Denial-of-Service Attacks (2024). https://www.cisa.gov/resources-tools/resources/understanding-and-responding-distributed-denial-service-attacks 
+4.	MITRE ATT&CK. T1498: Network Denial of Service. https://attack.mitre.org/techniques/T1498/ 
+5.	DDoS on Dyn Impacts Twitter, Spotify, Reddit (2016). https://krebsonsecurity.com/2016/10/ddos-on-dyn-impacts-twitter-spotify-reddit/ 
+6.	Cybersecurity and Infrastructure Security Agency (CISA). Heightened DDoS Threat Posed by Mirai and Other Botnets (2017). https://www.cisa.gov/news-events/alerts/2016/10/14/heightened-ddos-threat-posed-mirai-and-other-botnets 
