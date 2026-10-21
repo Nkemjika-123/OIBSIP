@@ -90,3 +90,21 @@ Browsers trusted certificates issued by DigiNotar so victims thought that they w
 -	Session hijacking and credential theft enabling unauthorized access to user accounts and organizational systems. 
 -	Loss of confidentiality and integrity compromising the trustworthiness of network communications.
 
+# Three Specific Mitigation Strategies
+
+1. Use Strong Encryption (HTTPS/TLS)
+Using modern TLS/SSL encryption protects data in transit. Encryption and digital certificates help ensure the confidentiality and integrity of communications, making it significantly harder for attackers to intercept or modify traffic. Organizations should disable outdated SSL versions and use latest TLS standards.
+
+2. Implement Phishing-Resistant Multi-Factor Authentication (MFA)
+Modern adversary-in-the-middle attacks often target user credentials and authentication tokens. It is recommended to implement strong, phishing-resistant MFA methods to reduce the likelihood of credential theft and account compromise.
+
+3. Secure Network Infrastructure and Monitor for Anomalies
+Mitre Atta&ck recommends disabling unnecessary legacy protocols, encrypting wired and wireless traffic, using network intrusion detection/prevention systems (IDS/IPS) and putting networks in segments to limit opportunities for attackers to intercept communications. 
+
+# References
+1.	National Institute of Standards and Technology (NIST). Man-in-the-Middle Attack (MitM) Glossary. https://csrc.nist.gov/glossary/term/man_in_the_middle_attack [csrc.nist.gov], [csrc.nist.rip]
+2.	Cybersecurity and Infrastructure Security Agency (CISA). Securing End-to-End Communications. https://www.cisa.gov/news-events/alerts/2015/04/30/securing-end-end-communications [cisa.gov]
+3.	Cybersecurity and Infrastructure Security Agency (CISA). Phishing Guidance: Stopping the Attack Cycle at Phase One (2023). https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one [cisa.gov]
+4.	MITRE ATT&CK. T1557: Adversary-in-the-Middle. https://attack.mitre.org/techniques/T1557/ [attack.mitre.org], [attack.mitre.org]
+5.	Electronic Frontier Foundation (EFF). A Post Mortem on the Iranian DigiNotar Attack (2011). https://www.eff.org/deeplinks/2011/09/post-mortem-iranian-diginotar-attack [eff.org]
+6.	 LearnTPRM. [learntprm.com]
