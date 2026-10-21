@@ -111,3 +111,13 @@ Browsers trusted certificates issued by DigiNotar so victims thought that they w
 4.	MITRE ATT&CK. T1557: Adversary-in-the-Middle. https://attack.mitre.org/techniques/T1557/ [attack.mitre.org], [attack.mitre.org]
 5.	Electronic Frontier Foundation (EFF). A Post Mortem on the Iranian DigiNotar Attack (2011). https://www.eff.org/deeplinks/2011/09/post-mortem-iranian-diginotar-attack [eff.org]
 6.	 LearnTPRM. [learntprm.com]
+
+# IP Spoofing
+
+IP Spoofing is a technique in which an attacker falsifies the source IP address in network packets to make the traffic appear as though it originates from a trusted or legitimate system rather than the actual sender. Spoofing is a form of impersonation in which attackers disguise their identity and bypass security controls, evade detection or facilitate other attacks. According to (NIST). (n.d.), spoofing involves posing as an authorized user or resource and deliberately inducing a user or system to take incorrect actions. 
+
+IP spoofing is commonly used to:
+-	Hide the true source of malicious traffic. 
+-	Support Distributed Denial-of-Service (DDoS) attacks. 
+-	Conduct reflection and amplification attacks by tricking servers into sending responses to a victim instead of the attacker.
+-	Bypass systems that rely on IP-based trust mechanisms. 
