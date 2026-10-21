@@ -160,3 +160,25 @@ IP spoofing can significantly affect organizations and networks by:
 5.	Cybersecurity and Infrastructure Security Agency (CISA). NSA and CISA Red and Blue Teams Share Top Ten Cybersecurity Misconfigurations (2023). https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-278a [cisa.gov]
 6.	MITRE ATT&CK. Adversary-in-the-Middle: DHCP Spoofing (T1557.003). https://attack.mitre.org/techniques/T1557/003/ [attack.mitre.org]
 7.	. KrebsOnSecurity Hit With Record DDoS (2016). https://krebsonsecurity.com/2016/09/krebsonsecurity-hit-with-record-ddos/ [krebsonsecurity.com]
+
+# DNS Poisoning/Spoofing
+
+DNS Poisoning is also known as DNS Cache Poisoning or DNS Spoofing. This is an attack that manipulates the Domain Name System (DNS) so that users are redirected to malicious or incorrect websites instead of legitimate ones. DNS acts as the Internet's phonebook by translating domain names into IP addresses. When attackers successfully alter DNS records or inject false DNS information into a resolver's cache, users can unknowingly be directed to attacker-controlled systems.
+
+According to Mitre Att&ck, attackers may compromise DNS servers and alter DNS records to redirect an organization's traffic, facilitating credential theft, traffic interception and information collection. This technique allows attackers to redirect users to malicious infrastructure while appearing legitimate. 
+
+This means that attackers can modify DNS records such as  A, MX or NS records and replace legitimate addresses with attacker-controlled addresses. As a result, web traffic and email traffic may be intercepted, monitored or manipulated without the user's knowledge. 
+
+# Real-World Example: DNSpionage Campaign (2018-2019)
+
+A well-documented example of DNS spoofing and DNS hijacking was the DNSpionage campaign. According to Krebs (2019), attackers hijacked DNS records belonging to government agencies and private organizations in the Middle East. By manipulating DNS settings, they redirected VPN and email traffic to attacker-controlled servers. The attackers then obtained valid SSL certificates for the targeted domains, enabling them to decrypt intercepted communications and steal login credentials.
+
+The campaign demonstrated how compromising DNS infrastructure can provide attackers with access to sensitive email accounts, authentication credentials and confidential communications while remaining difficult to detect.
+
+# Impact of DNS Poisoning/Spoofing
+
+The impact of DNS Poisoning and Spoofing attacks can be the following:
+-	Credential Theft: Users may be redirected to fake websites that steal usernames, passwords, and financial information. 
+-	Traffic Interception: Attackers can inspect, modify, or monitor web and email communications.
+-	Malware Distribution: Victims can be redirected to malicious websites that distribute malware or ransomware. 
+-	Loss of Trust and Business Disruption: Organizations may suffer reputational damage, service disruption and financial losses when users cannot safely reach legitimate services. 
