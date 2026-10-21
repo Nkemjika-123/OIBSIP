@@ -71,8 +71,22 @@ A Man-in-the-Middle (MITM) attack occurs when attackers secretly position themse
 According to Mitre Att&ck (n.d.), attackers use Man-in-the-Middle (T1557) techniques to place themselves between networked devices by exploiting protocols such as ARP, DNS, DHCP and name resolution services. This position allows attackers to perform activities including network sniffing, credential theft, session hijacking, traffic manipulation and replay attacks.
 
 Common MITM techniques include:
-•	ARP Cache Poisoning
-•	DNS Spoofing
-•	DHCP Spoofing
-•	Evil Twin (Rogue Wi-Fi) Access Points
-•	SSL/TLS Downgrade Attacks
+-	ARP Cache Poisoning
+-	DNS Spoofing
+-	DHCP Spoofing
+-	Evil Twin (Rogue Wi-Fi) Access Points
+-	SSL/TLS Downgrade Attacks
+
+# Real-World Example: DigiNotar Certificate Authority Breach (2011)
+
+A well-known example of a MITM attack was the Certificate Authority Breach in 2011. Attackers compromised the Dutch certificate authority DigiNotar and issued fraudulent SSL certificates, including fake certificates for Google domains. These certificates were used to conduct large-scale MITM attacks against approximately 300,000 Iranian Gmail users, allowing attackers to intercept supposedly secure communications. 
+
+Browsers trusted certificates issued by DigiNotar so victims thought that they were communicating securely with legitimate websites no knowing that their traffic was actually being intercepted and monitored by attackers. The incident made browser vendors like Google, Microsoft and Mozilla revoke trust in DigiNotar certificates and the company went bankrupt. 
+
+# Impact of MITM Attacks
+
+-	Theft of sensitive information such as usernames, passwords, banking details and confidential communications. 
+-	Modification of transmitted data allowing attackers to alter messages, transactions or files without detection. 
+-	Session hijacking and credential theft enabling unauthorized access to user accounts and organizational systems. 
+-	Loss of confidentiality and integrity compromising the trustworthiness of network communications.
+
