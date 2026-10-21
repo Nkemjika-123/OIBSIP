@@ -18,3 +18,15 @@ Network security threats are a major concern in today's digital landscape becaus
 4.	MITRE Corporation. MITRE ATT&CK® Framework. https://attack.mitre.org/ 
 5.	SANS Institute. (2023). SANS 2023 Security Awareness Report: Managing Human Risk. https://www.sans.org/reading-room/ 
 
+# DoS/DDoS Attacks
+## How They Work
+A Denial-of-Service (DoS) attack is a cyber-attack that attempts to make a system, network or service unavailable to legitimate users by overwhelming it with malicious traffic or requests. A DoS attack prevents authorized access to resources or delays critical operations.
+
+A Distributed Denial-of-Service (DDoS) attack is a more powerful form of DoS attack that uses a lot of compromised devices or hosts to simultaneously flood a target with traffic. DDoS is a denial-of-service technique that uses multiple hosts to perform the attack. 
+
+According to Mitre Att&ck (n.d.), attackers perform network DoS attacks by exhausting the bandwidth or resources that websites, DNS services, email systems and web applications rely on. Traffic may originate from a single system (DoS) or from thousands of distributed systems (DDoS), often organized into botnets. Mitre Att&ck classifies these attacks under “Technique T1498: Network Denial of Service” and identifies sub-techniques such as Direct Network Flood and Reflection Amplification. 
+
+DDoS attacks can be categorized into three major types:
+-	Volumetric attacks that consume available bandwidth.
+-	Protocol attacks that exploit weaknesses in network protocols.
+-	Application-layer attacks that target specific applications or services
