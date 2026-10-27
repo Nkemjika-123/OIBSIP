@@ -301,7 +301,7 @@ Baiting is a type of social engineering attack in which cybercriminals exploit a
 
 The goal is to persuade the victim to connect an untrusted device, download a malicious file, visit a fraudulent website or disclose sensitive information. Once the victim takes the bait, the attacker may steal credentials, install malware, access confidential data or compromise the victim's computer and connected network.
 
-The U.S. Army Cyber Command explains that baiting can involve unattended storage devices and online offers that encourage people to access malicious files or websites. [Source: U.S. Army Cyber Command — Cybersecurity Fact Sheet: Baiting](https://www.arcyber.army.mil/Resources/Fact-Sheets/Article/1440670/cybersecurity-fact-sheet-baiting/).
+The U.S. Army Cyber Command explains that baiting can involve unattended storage devices and online offers that encourage people to access malicious files or websites. *Source: U.S. Army Cyber Command — Cybersecurity Fact Sheet: Baiting*. https://www.arcyber.army.mil/Resources/Fact-Sheets/Article/1440670/cybersecurity-fact-sheet-baiting/.
 
 Baiting attacks can be divided into two main categories: physical baiting and digital baiting.
 
@@ -347,7 +347,7 @@ Digital baiting can also involve fake prize notifications, fraudulent giveaways 
 
 Stuxnet was a sophisticated computer worm discovered in 2010. It targeted industrial control systems, particularly Siemens systems used to monitor and control industrial processes. The malware became widely known because of its association with attacks on Iran's nuclear programme.
 
-The European Union Agency for Cybersecurity (ENISA) documented that Stuxnet could spread through USB drives and open network shares. Its capabilities allowed it to infect Windows computers and target particular industrial control software. [ENISA — Stuxnet Analysis](https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis).
+The European Union Agency for Cybersecurity (ENISA) documented that Stuxnet could spread through USB drives and open network shares. Its capabilities allowed it to infect Windows computers and target particular industrial control software. *ENISA — Stuxnet Analysis*. https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis.
 
 #### How the Attack Worked
 
@@ -363,9 +363,9 @@ The incident also highlighted the risks faced by organizations that transfer fil
 
 #### References
 
-1. European Union Agency for Cybersecurity (ENISA). *Stuxnet Analysis*. [Read the report](https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis). See **"Technical analysis of the problem"** for the malware's targets and infection methods, and **"Detection and mitigation"** for defensive recommendations.
+1. European Union Agency for Cybersecurity (ENISA). *Stuxnet Analysis*. *Read the report*. https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis. See **"Technical analysis of the problem"** for the malware's targets and infection methods, and **"Detection and mitigation"** for defensive recommendations.
 
-2. National Institute of Standards and Technology (NIST). (2025). *Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments*, Special Publication 1334. [Read the publication](https://csrc.nist.gov/pubs/sp/1334/final). Consult the abstract and guidance on procedural, physical, and technical controls for removable media in operational technology environments.
+2. National Institute of Standards and Technology (NIST). (2025). *Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments*, Special Publication 1334. *Read the publication*. https://csrc.nist.gov/pubs/sp/1334/final. Consult the abstract and guidance on procedural, physical, and technical controls for removable media in operational technology environments.
 
 ### Prevention Measures
 
@@ -379,7 +379,7 @@ If an unknown device is discovered at work, report it to the IT or security team
 
 For sensitive industrial environments, restrict removable-media use to authorized devices and apply appropriate technical controls.
 
-[NIST SP 1334 — Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments](https://csrc.nist.gov/pubs/sp/1334/final).
+*NIST SP 1334 — Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments*. https://csrc.nist.gov/pubs/sp/1334/final.
 
 #### 2. Download Software Only from Trusted Sources
 
