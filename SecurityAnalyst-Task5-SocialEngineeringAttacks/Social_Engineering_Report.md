@@ -221,7 +221,7 @@ Once the victim believes the story, the attacker requests login credentials, ver
 The attacker may use the information to access accounts, steal data, commit fraud or move further into the organization's network.
 
 These stages are consistent with MITRE's description of pretexting as an attack pattern involving an invented scenario and an assumed identity to manipulate a target.
-*MITRE CAPEC-407 — Pretexting*. https://capec.mitre.org/data/definitions/407.html
+*MITRE CAPEC-407 Pretexting*. https://capec.mitre.org/data/definitions/407.html
 
 **Scenario:**
 
