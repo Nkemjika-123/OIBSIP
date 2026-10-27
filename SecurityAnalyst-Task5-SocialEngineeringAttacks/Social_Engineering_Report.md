@@ -436,3 +436,11 @@ An attacker may impersonate an IT support technician and contact employees who a
 ## Comparison of Social Engineering Attacks
 The following table compares the main social engineering attack types, their primary targets, the psychological factors they exploit and the most effective countermeasures.
 
+## Comparison of Social Engineering Attack Types
+
+| Attack Type | Primary Target | Psychological Lever Exploited | Best Countermeasure |
+|---|---|---|---|
+| **Phishing** | Email users, employees, and online account holders | Trust, fear, urgency, and curiosity | Email filtering, phishing awareness training, and phishing-resistant multi-factor authentication (MFA) |
+| **Pretexting** | Employees, customers, IT personnel, and individuals with access to sensitive information | Trust, authority, familiarity, and urgency | Independently verify identities and requests through trusted communication channels |
+| **Baiting** | Employees, students, and computer users | Curiosity, greed, and desire for free products or services | Never connect unknown USB devices. Download software only from trusted sources |
+| **Quid Pro Quo** | Employees or individuals seeking technical assistance or other benefits | Reciprocity, trust, and the desire for assistance or rewards | Verify support personnel and never disclose credentials or grant unauthorized access in exchange for a service |
