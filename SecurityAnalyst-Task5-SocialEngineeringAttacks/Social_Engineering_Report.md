@@ -170,3 +170,16 @@ Require multi-factor authentication for email, remote access, financial systems 
 
 Use email filtering, anti-malware protection and domain authentication controls such as SPF, DKIM and DMARC to reduce fraudulent messages and sender impersonation. Keep operating systems and applications updated, restrict administrative privileges using the principle of least privilege, and monitor accounts for unusual login activity.ing.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day
 
+## References
+
+1. Cybersecurity and Infrastructure Security Agency (CISA). (2024). *Phishing General Security Guidance*. [https://www.cisa.gov/sites/default/files/2024-02/Update%20to%20Phishing%20General%20Security%20Postcard_01.01.2024.pdf](https://www.cisa.gov/sites/default/files/2024-02/Update%20to%20Phishing%20General%20Security%20Postcard_01.01.2024.pdf)
+
+2. Center for Internet Security (CIS). (2018). *MS-ISAC Security Primer: Spear Phishing*. [https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-spear-phishing](https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-spear-phishing)
+
+3. Canadian Centre for Cyber Security. *Don't Take the Bait: Recognize and Avoid Phishing Attacks*. [https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks](https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks)
+
+4. National Institute of Standards and Technology (NIST). (2023). *Phishing Resistance – Protecting the Keys to Your Kingdom*. [https://www.nist.gov/blogs/cybersecurity-insights/phishing-resistance-protecting-keys-your-kingdom](https://www.nist.gov/blogs/cybersecurity-insights/phishing-resistance-protecting-keys-your-kingdom)
+
+5. Zetter, K. (2011, August 26). *Researchers Uncover RSA Phishing Attack, Hiding in Plain Sight*. WIRED. [https://www.wired.com/2011/08/how-rsa-got-hacked/](https://www.wired.com/2011/08/how-rsa-got-hacked/)
+
+6. Higgins, K. J. (2011, April 1). *RSA SecurID Attack Began With Excel File Rigged With Flash Zero-Day*. Dark Reading. [https://www.darkreading.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day](https://www.darkreading.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day)
