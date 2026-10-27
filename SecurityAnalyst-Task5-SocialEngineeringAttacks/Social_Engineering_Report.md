@@ -294,3 +294,99 @@ Organizations can reinforce this training with authorized simulations, clear inc
 5. Federal Bureau of Investigation, Internet Crime Complaint Center (IC3). (2024, April 11). *Cyber Criminals Target Victims Using Social Engineering Techniques*. [https://www.ic3.gov/PSA/2024/PSA240411](https://www.ic3.gov/PSA/2024/PSA240411)
 
 6. Cybersecurity and Infrastructure Security Agency (CISA). (2021). *Avoiding Social Engineering and Phishing Attacks*. Archived cybersecurity guidance. [https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks](https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks)
+
+## Baiting Attacks
+
+Baiting is a type of social engineering attack in which cybercriminals exploit a person's curiosity, greed or desire to obtain something useful or attractive to persuade them to take an unsafe action. The attacker may offer free software, movies, music, prizes or other tempting items or leave a physical device such as a USB flash drive where someone is likely to find it.
+
+The goal is to persuade the victim to connect an untrusted device, download a malicious file, visit a fraudulent website or disclose sensitive information. Once the victim takes the bait, the attacker may steal credentials, install malware, access confidential data or compromise the victim's computer and connected network.
+
+The U.S. Army Cyber Command explains that baiting can involve unattended storage devices and online offers that encourage people to access malicious files or websites. [Source: U.S. Army Cyber Command — Cybersecurity Fact Sheet: Baiting](https://www.arcyber.army.mil/Resources/Fact-Sheets/Article/1440670/cybersecurity-fact-sheet-baiting/).
+
+Baiting attacks can be divided into two main categories: physical baiting and digital baiting.
+
+### Types of Baiting Attacks
+
+#### 1. Physical Baiting
+
+Physical baiting occurs when an attacker uses a physical object to tempt someone into taking an unsafe action. A common example is leaving an infected USB flash drive in a public place such as an office car park, reception area or conference room.
+
+**How It Works:**
+
+1. The attacker prepares a removable storage device that contains malicious files or other harmful content.
+2. The device is left in a location where a potential victim is likely to discover it.
+3. The victim picks up the device out of curiosity or in an attempt to identify its owner.
+4. The victim connects the device to a computer and opens a file, thereby interacting with its contents.
+5. If the malicious content executes successfully, the computer may become infected, potentially exposing sensitive information or providing an entry point into the organization's network.
+
+**Scenario:**
+
+An employee discovers a USB drive labelled "Company Salaries" in the office car park. Curious about its contents, the employee connects it to a work computer and opens a file. If the file contains executable malware, the computer may be compromised.
+
+Physical baiting takes advantage of curiosity and the natural tendency to investigate unfamiliar objects. Unknown USB drives should therefore never be connected to personal or company computers.
+
+#### 2. Digital Baiting
+
+Digital baiting takes place through online content, downloads, advertisements, websites or messages that offer something attractive in exchange for a click, download or disclosure of information.
+
+**How It Works:**
+
+1. The attacker creates an attractive offer, such as free software, a premium application, a movie download or a prize.
+2. The offer is distributed through a website, advertisement, social media post or message.
+3. The victim follows a link or downloads a file, believing the content is legitimate.
+4. The downloaded file may contain malware or the website may request personal information or login credentials.
+5. The victim may run the malicious file or submit sensitive information, allowing the attacker to gain access to the device, account or personal data.
+
+**Scenario:**
+
+A user searches for a free version of a paid software application and visits a fraudulent download website. The downloaded installer appears legitimate but contains malware that steals browser credentials or provides unauthorized remote access.
+
+Digital baiting can also involve fake prize notifications, fraudulent giveaways and advertisements that redirect users to malicious websites.
+
+### Real-World Case Study: The Stuxnet Attack
+
+Stuxnet was a sophisticated computer worm discovered in 2010. It targeted industrial control systems, particularly Siemens systems used to monitor and control industrial processes. The malware became widely known because of its association with attacks on Iran's nuclear programme.
+
+The European Union Agency for Cybersecurity (ENISA) documented that Stuxnet could spread through USB drives and open network shares. Its capabilities allowed it to infect Windows computers and target particular industrial control software. [ENISA — Stuxnet Analysis](https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis).
+
+#### How the Attack Worked
+
+Stuxnet used multiple infection and propagation techniques, including removable USB storage. This was particularly significant because USB drives could introduce malware into computers that were not directly connected to the internet.
+
+Once the malware reached a suitable Windows computer, it exploited software vulnerabilities to spread and used specialized components to identify and target some industrial control environments. Its payload was designed to interfere with specific industrial processes while concealing aspects of its activity.
+
+#### Impact
+
+Stuxnet targeted industrial control systems associated with Iran's nuclear programme. Its design demonstrated that malware could do more than steal files or passwords. It could interfere with physical industrial processes controlled by computers.
+
+The incident also highlighted the risks faced by organizations that transfer files using removable media, especially in industrial environments where computers may be isolated from ordinary corporate networks.
+
+#### References
+
+1. European Union Agency for Cybersecurity (ENISA). *Stuxnet Analysis*. [Read the report](https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis). See **"Technical analysis of the problem"** for the malware's targets and infection methods, and **"Detection and mitigation"** for defensive recommendations.
+
+2. National Institute of Standards and Technology (NIST). (2025). *Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments*, Special Publication 1334. [Read the publication](https://csrc.nist.gov/pubs/sp/1334/final). Consult the abstract and guidance on procedural, physical, and technical controls for removable media in operational technology environments.
+
+### Prevention Measures
+
+Organizations and individuals can reduce the risk of baiting attacks by implementing the following three measures.
+
+#### 1. Never Connect Unknown USB Drives or Removable Devices
+
+Do not connect an unidentified USB drive, external hard drive or other removable device to a computer, even if it appears to belong to a colleague or contains an interesting label.
+
+If an unknown device is discovered at work, report it to the IT or security team and follow the organization's incident-handling procedures. Organizations should establish policies governing removable media and use approved devices from trusted sources.
+
+For sensitive industrial environments, restrict removable-media use to authorized devices and apply appropriate technical controls.
+
+[NIST SP 1334 — Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments](https://csrc.nist.gov/pubs/sp/1334/final).
+
+#### 2. Download Software Only from Trusted Sources
+
+Obtain applications, updates and digital content from official vendor websites or trusted distribution platforms. Avoid suspicious advertisements, unofficial download sites, unexpected prize offers and software that requires disabling security protections.
+
+Before installing a file, verify its source and authenticity. Keep operating systems and applications updated, use reputable endpoint security software and scan downloaded files where appropriate.
+
+These precautions reduce the risk of installing malware disguised as a legitimate application or attractive free offer.
+
+*CISA — How to Protect the Data That Is Stored on Your Devices*. https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices
