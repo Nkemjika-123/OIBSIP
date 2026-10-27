@@ -142,5 +142,6 @@ The attackers subsequently obtained information relating to RSA's SecurID two-fa
 
 **References:**
 
-*WIRED — How RSA Got Hacked*. https://www.wired.com/2011/08/how-rsa-got-hacked/
+*WIRED — How RSA Got Hacked*.
+https://www.wired.com/2011/08/how-rsa-got-hacked/
 *Dark Reading — RSA SecurID Attack Began With Excel File Rigged With Flash Zero-Day*. https://www.darkreading.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day
