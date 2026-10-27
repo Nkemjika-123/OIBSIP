@@ -77,4 +77,4 @@ An attacker impersonates a trusted business partner, senior colleague, legal adv
 A finance employee receives an email apparently from the CEO requesting an urgent transfer of company funds to a new supplier account. If the employee does not independently verify the request, the organization may lose money.
 
 **Reference:**
-[Canadian Centre for Cyber Security — Don't Take the Bait: Recognize and Avoid Phishing Attacks](https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks)
+*Canadian Centre for Cyber Security — Don't Take the Bait: Recognize and Avoid Phishing Attacks*.(https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks)
