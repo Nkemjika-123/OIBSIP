@@ -183,3 +183,66 @@ Use email filtering, anti-malware protection and domain authentication controls 
 5. Zetter, K. (2011, August 26). *Researchers Uncover RSA Phishing Attack, Hiding in Plain Sight*. WIRED. [https://www.wired.com/2011/08/how-rsa-got-hacked/](https://www.wired.com/2011/08/how-rsa-got-hacked/)
 
 6. Higgins, K. J. (2011, April 1). *RSA SecurID Attack Began With Excel File Rigged With Flash Zero-Day*. Dark Reading. [https://www.darkreading.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day](https://www.darkreading.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day)
+
+## Pretexting Attacks
+
+Pretexting is a type of social engineering attack in which a cybercriminal invents a believable story or false situation to persuade a victim to reveal confidential information, grant unauthorized access, or perform an action that benefits the attacker. The attacker often impersonates a trusted person such as an IT support employee, bank representative, manager, supplier or government official to make the request appear legitimate.
+
+According to the Canadian Centre for Cyber Security, pretexting involves creating a fabricated scenario that makes an interaction seem reasonable and believable with the aim of building trust and encouraging the target to disclose sensitive information or provide access. *Canadian Centre for Cyber Security — Social Engineering*. https://www.cyber.gc.ca/en/guidance/social-engineering-itsap00166
+
+Unlike a random fraudulent message, pretexting often involves research and a carefully constructed explanation. The attacker may use publicly available information about an organization, its employees or its procedures to make the false story more convincing.
+
+### How an Attacker Builds a False Scenario
+
+Pretexting attacks commonly involve the following stages:
+
+**1. Researching the Target**
+
+The attacker gathers information about the victim, their workplace, job responsibilities, colleagues or service providers. Information may come from company websites, social media profiles, public records or previously compromised accounts.
+
+**2. Creating a Believable Identity**
+
+The attacker assumes a false identity such as an IT technician, bank employee, manager or trusted business partner. They may use a fake email address, caller ID manipulation or a fraudulent website to support the identity.
+
+**3. Inventing a Convincing Situation**
+
+The attacker develops a story that gives them a reason to contact the victim. For example, they might claim that an employee's account has been compromised, a password must be reset or an urgent payment requires verification.
+
+**4. Building Trust and Applying Pressure**
+
+The attacker uses familiar terminology, apparent knowledge of the organization, authority, urgency or fear to make the request seem genuine. The victim may feel compelled to cooperate rather than question the request.
+
+**5. Requesting Sensitive Information or an Action**
+
+Once the victim believes the story, the attacker requests login credentials, verification codes, confidential documents, a password reset or access to an internal system.
+
+**6. Exploiting the Information Obtained**
+
+The attacker may use the information to access accounts, steal data, commit fraud or move further into the organization's network.
+
+These stages are consistent with MITRE's description of pretexting as an attack pattern involving an invented scenario and an assumed identity to manipulate a target. *MITRE CAPEC-407 — Pretexting*. https://capec.mitre.org/data/definitions/407.html
+
+**Scenario:**
+
+An attacker calls an employee and claims to be from the company's IT help desk. The attacker explains that a recent system update has caused login problems and asks the employee to verify their credentials on a supplied website. Believing the explanation, the employee enters their username and password, allowing the attacker to steal the credentials.
+
+This illustrates how a false scenario can turn an ordinary support interaction into a security breach.
+
+### Documented Real-World Case Study: The 2020 Twitter Hack
+
+#### Incident Overview
+
+On July 15, 2020, Twitter experienced a major security incident in which attackers gained access to internal systems and compromised several high-profile accounts. The affected accounts included those belonging to public figures and cryptocurrency-related businesses.
+
+The New York State Department of Financial Services investigated the incident and published its findings in October 2020. The investigation documented how attackers used social engineering to obtain employee credentials and gain access to Twitter's internal network.
+
+#### How the Pretexting Attack Worked
+
+The attackers contacted Twitter employees by telephone and pretended to be members of the company's IT help desk. They claimed they were helping employees resolve problems with Twitter's virtual private network (VPN), which staff used for remote work.
+
+This fabricated explanation was convincing because VPN problems were familiar to employees working remotely. The attackers had also researched Twitter's employees and internal functions, helping them make their impersonation more credible.
+
+During the calls, the attackers persuaded employees to enter their login credentials into a fraudulent website designed to resemble Twitter's legitimate VPN login page.
+
+The incident combined pretexting, telephone-based social engineering (vishing) and credential phishing. The attackers used the false IT-support scenario to gain employees' trust and then directed them to a fraudulent login page.
+
