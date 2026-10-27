@@ -363,9 +363,9 @@ The incident also highlighted the risks faced by organizations that transfer fil
 
 #### References
 
-1. European Union Agency for Cybersecurity (ENISA). *Stuxnet Analysis*. *Read the report*. https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis. See **"Technical analysis of the problem"** for the malware's targets and infection methods, and **"Detection and mitigation"** for defensive recommendations.
+1. European Union Agency for Cybersecurity (ENISA). *Stuxnet Analysis*. *Read the report*. https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis. See **"Technical analysis of the problem"** for the malware's targets and infection methods and **"Detection and mitigation"** for defensive recommendations.
 
-2. National Institute of Standards and Technology (NIST). (2025). *Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments*, Special Publication 1334. *Read the publication*. https://csrc.nist.gov/pubs/sp/1334/final. Consult the abstract and guidance on procedural, physical, and technical controls for removable media in operational technology environments.
+2. National Institute of Standards and Technology (NIST). (2025). *Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments*, Special Publication 1334. *Read the publication*. https://csrc.nist.gov/pubs/sp/1334/final. Consult the abstract and guidance on procedural, physical and technical controls for removable media in operational technology environments.
 
 ### Prevention Measures
 
@@ -390,3 +390,45 @@ Before installing a file, verify its source and authenticity. Keep operating sys
 These precautions reduce the risk of installing malware disguised as a legitimate application or attractive free offer.
 
 *CISA — How to Protect the Data That Is Stored on Your Devices*. https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices
+
+**3. Combine Security Awareness Training with Technical Controls**
+
+Educate employees about physical and digital baiting, including the risks of unknown USB devices, fraudulent downloads and offers that appear too good to be true.
+
+Training should encourage employees to report suspicious devices and online offers rather than investigate them independently. Organizations should also implement device-control policies, restrict unauthorized USB storage where appropriate, apply least-privilege access and use endpoint protection to detect malicious activity.
+
+In industrial environments, organizations should use documented procedures for scanning, approving and transferring files through removable media, alongside physical and technical safeguards.
+
+## References
+
+1. U.S. Army Cyber Command. (2018, September 26). *Cybersecurity Fact Sheet: Baiting*. [https://www.arcyber.army.mil/Resources/Fact-Sheets/Article/1440670/cybersecurity-fact-sheet-baiting/](https://www.arcyber.army.mil/Resources/Fact-Sheets/Article/1440670/cybersecurity-fact-sheet-baiting/)
+
+2. European Union Agency for Cybersecurity (ENISA). *Stuxnet Analysis*. [https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis](https://www.enisa.europa.eu/news/enisa-news/stuxnet-analysis)
+
+3. National Institute of Standards and Technology (NIST). (2025). *Reducing the Cybersecurity Risks of Portable Storage Media in OT Environments* (NIST SP 1334). [https://csrc.nist.gov/pubs/sp/1334/final](https://csrc.nist.gov/pubs/sp/1334/final)
+
+4. SANS Institute. (2003). Gragg, D. *A Multi-Level Defense Against Social Engineering*. SANS Reading Room. [https://www.sans.org/white-papers/920](https://www.sans.org/white-papers/920)
+
+5. Cybersecurity and Infrastructure Security Agency (CISA). *How to Protect the Data That Is Stored on Your Devices*. [https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices](https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices)
+
+6. U.S. Department of Health and Human Services (HHS). (2024). *October 2024 OCR Cybersecurity Newsletter*. [https://www.hhs.gov/hipaa/for-professionals/security/guidance/cybersecurity-newsletter-october-2024/index.html](https://www.hhs.gov/hipaa/for-professionals/security/guidance/cybersecurity-newsletter-october-2024/index.html)
+
+## Quid Pro Quo
+
+Quid pro quo is a social engineering technique in which an attacker offers a service, benefit or reward in exchange for information or an action that compromises the victim's security. The phrase means "something for something." Attackers may offer technical support, free products or assistance to persuade victims to disclose credentials, install malicious software or provide unauthorized access.
+
+### How It Works
+
+An attacker may impersonate an IT support technician and contact employees who are experiencing computer problems. The attacker offers to resolve the problem but asks the employee to disclose a password, provide a verification code or install remote-access software. If the employee trusts the attacker and complies, the attacker may gain unauthorized access to the employee's computer or organizational systems.
+
+### Prevention Measures
+
+1. Verify the identity of anyone offering unexpected technical assistance through official communication channels.
+2. Never disclose passwords or one-time verification codes in exchange for technical support or other benefits.
+3. Follow organizational security procedures and obtain authorization before installing software or granting remote access.
+
+### References
+
+1. SANS Institute. *A Multi-Level Defense Against Social Engineering*. [https://www.sans.org/white-papers/920](https://www.sans.org/white-papers/920)
+
+2. Cybersecurity and Infrastructure Security Agency (CISA). *Avoiding Social Engineering and Phishing Attacks*. [https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks](https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks)
