@@ -228,7 +228,7 @@ An attacker calls an employee and claims to be from the company's IT help desk. 
 
 This illustrates how a false scenario can turn an ordinary support interaction into a security breach.
 
-### Documented Real-World Case Study: The 2020 Twitter Hack
+### Real-World Case Study: The 2020 Twitter Hack
 
 #### Incident Overview
 
@@ -246,3 +246,50 @@ During the calls, the attackers persuaded employees to enter their login credent
 
 The incident combined pretexting, telephone-based social engineering (vishing) and credential phishing. The attackers used the false IT-support scenario to gain employees' trust and then directed them to a fraudulent login page.
 
+### Impact
+
+After obtaining employee credentials and access to internal tools, the attackers took control of dozens of high-profile Twitter accounts. They posted messages promoting a Bitcoin scam that encouraged followers to send cryptocurrency with the promise of receiving a larger amount in return.
+
+The New York State Department of Financial Services reported that the attackers stole more than $118,000 worth of Bitcoin. The incident also raised concerns about employee access privileges, internal security controls and the protection of administrative tools.
+
+### Primary Sources for the Case Study
+
+1. New York State Department of Financial Services (2020). *Twitter Investigation Report*. https://www.dfs.ny.gov/reports-and-publications/other-reports/Twitter_Report. Read the Executive Summary and the section titled "Phase One: Stealing Credentials through Social Engineering." These sections describe the false help-desk story, fraudulent VPN website, employee credential theft, and consequences.
+
+2. X (formerly Twitter). (2020). *An Update on Our Security Incident*. https://blog.x.com/en/company/an-update-on-our-security-incident. Read the July 30 update under "What we know now." This company statement confirms that the attack targeted a small number of employees through a phone spear-phishing attack and that the attackers obtained credentials granting access to internal support tools.
+
+### Prevention Measures
+
+Organizations can reduce the risk of pretexting attacks by implementing the following three measures.
+
+**1. Verify Identities Independently**
+
+Employees should never rely solely on a caller's claimed identity, displayed phone number, email signature, or knowledge of internal procedures. When someone requests sensitive information or access, employees should verify the person's identity through an independently obtained, trusted contact method.
+
+For example, if someone calls claiming to be from IT support and requests a password or verification code, the employee should end the interaction and contact the official IT help desk using the organization's approved contact details. Employees should never disclose passwords or one-time authentication codes to callers.
+
+**2. Establish Strong Verification and Approval Procedures**
+
+Organizations should implement formal procedures for password resets, changes to employee accounts, disclosure of confidential information and financial transactions. Sensitive requests should require identity verification and, where appropriate, approval from a second authorized person.
+
+The principle of least privilege should also be applied so that employees and administrators have only the access necessary to perform their duties. This limits the potential damage if an attacker successfully deceives an employee.
+
+**3. Conduct Regular Security Awareness Training**
+
+Employees should receive regular training on impersonation, pretexting, vishing and other social engineering techniques. Training should explain how attackers use urgency, authority, familiarity and personal information to manipulate victims.
+
+Organizations can reinforce this training with authorized simulations, clear incident-reporting procedures and exercises involving fraudulent IT-support calls. Employees should be encouraged to report suspicious interactions without fear of blame or punishment.
+
+## References
+
+1. Canadian Centre for Cyber Security. *Social Engineering — ITSAP.00.166*. Government of Canada. [https://www.cyber.gc.ca/en/guidance/social-engineering-itsap00166](https://www.cyber.gc.ca/en/guidance/social-engineering-itsap00166)
+
+2. MITRE. *CAPEC-407: Pretexting*. Common Attack Pattern Enumeration and Classification. [https://capec.mitre.org/data/definitions/407.html](https://capec.mitre.org/data/definitions/407.html)
+
+3. New York State Department of Financial Services. (2020, October 14). *Twitter Investigation Report: Report on Investigation of Twitter's July 15, 2020 Cybersecurity Incident and the Implications for Election Security*. [https://www.dfs.ny.gov/reports-and-publications/other-reports/Twitter_Report](https://www.dfs.ny.gov/reports-and-publications/other-reports/Twitter_Report)
+
+4. X (formerly Twitter). (2020, July 30). *An Update on Our Security Incident*. [https://blog.x.com/en/company/an-update-on-our-security-incident](https://blog.x.com/en/company/an-update-on-our-security-incident)
+
+5. Federal Bureau of Investigation, Internet Crime Complaint Center (IC3). (2024, April 11). *Cyber Criminals Target Victims Using Social Engineering Techniques*. [https://www.ic3.gov/PSA/2024/PSA240411](https://www.ic3.gov/PSA/2024/PSA240411)
+
+6. Cybersecurity and Infrastructure Security Agency (CISA). (2021). *Avoiding Social Engineering and Phishing Attacks*. Archived cybersecurity guidance. [https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks](https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks)
