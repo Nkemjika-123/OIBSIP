@@ -78,3 +78,69 @@ A finance employee receives an email apparently from the CEO requesting an urgen
 
 **Reference:**
 *Canadian Centre for Cyber Security — Don't Take the Bait: Recognize and Avoid Phishing Attacks*.(https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks)
+
+**3. Vishing (Voice Phishing)**
+
+Vishing is a phishing attack conducted through telephone calls, voicemail messages, or internet-based voice communication. Attackers impersonate trusted people or organizations to persuade victims to disclose confidential information or perform unauthorized actions.
+
+**How it works:**
+
+An attacker may pretend to be a bank representative, IT support employee, or government official. They might claim that an account has been compromised or that immediate action is required. The victim is then pressured to reveal passwords, one-time verification codes, banking details, or other sensitive information.
+
+**Scenario:**
+
+A caller claims to be from a bank's fraud department and tells a customer that suspicious transactions have been detected. The caller requests the customer's verification code to supposedly secure the account but uses it to gain unauthorized access.
+
+**Reference:** *CISA — Phishing General Security Guidance*. (https://www.cisa.gov/sites/default/files/2024-02/Update%20to%20Phishing%20General%20Security%20Postcard_01.01.2024.pdf)
+
+### 4. Smishing (SMS Phishing)
+
+Smishing is a phishing attack that uses fraudulent SMS or text messages to deceive victims into clicking malicious links, downloading harmful applications, or disclosing sensitive information.
+
+**How it works:**
+
+The attacker sends a message pretending to be from a bank, delivery company, mobile network provider, or government agency. The message may claim that a package is delayed, an account has been suspended, or a payment must be confirmed. The victim is directed to a fraudulent website or encouraged to provide personal information.
+
+**Scenario:**
+
+A person receives a text message claiming that their bank account will be blocked unless they verify their details through a supplied link. The link opens a fake banking website designed to collect login credentials.
+
+**Reference:** *Canadian Centre for Cyber Security — Don't Take the Bait: Recognize and Avoid Phishing Attacks*. https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks
+
+## How a Phishing Attack Works
+
+A typical phishing attack follows these stages:
+
+1. **Target research:**
+   The attacker identifies potential victims and may collect information from social media, company websites, or publicly       available records.
+2. **Message preparation:**
+   The attacker creates a deceptive email, text message, or voice communication that impersonates a trusted source.
+3. **Delivery:**
+   The fraudulent message is sent to the target, often using an urgent request, a tempting offer, or a warning about a          supposed problem.
+4. **Victim interaction:**
+   The victim clicks a link, opens an attachment, replies to the message, or provides sensitive information.
+5. **Compromise:**
+   The attacker may steal credentials, install malware, gain access to an account, or use the compromised device to reach       other systems.
+6. **Exploitation:**
+   The attacker may steal data, commit financial fraud, impersonate the victim, or move further into an organization's          network.
+
+**Reference:** *CIS — MS-ISAC Security Primer: Spear Phishing*. (https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-spear-phishing)
+
+## Real-World Case Study: The 2011 RSA SecurID Spear-Phishing Attack
+
+### Incident Overview
+
+In March 2011, RSA, a security company known for its SecurID authentication products, suffered a cyberattack that began with targeted phishing emails sent to employees of its parent company, EMC. The incident demonstrated how an email that looks ordinary could become the entry point for a serious security breach.
+
+### How the Attack Happened
+
+According to reporting by WIRED and Dark Reading, attackers sent targeted emails to small groups of employees with the subject line *"2011 Recruitment Plan."* The messages contained an Excel spreadsheet attachment. At least one employee retrieved the message from the junk email folder and opened the attachment.
+
+The spreadsheet exploited a previously unknown Adobe Flash vulnerability and installed a backdoor known as Poison Ivy. This gave the attackers remote access to the compromised computer and allowed them to move further into the organization's network.
+
+The attackers subsequently obtained information relating to RSA's SecurID two-factor authentication products. The incident was particularly significant because SecurID technology was used by organizations to strengthen authentication. Later, Lockheed Martin and other defense contractors were targeted in related activity involving SecurID credentials or tokens.
+
+**References:**
+
+*WIRED — How RSA Got Hacked*. https://www.wired.com/2011/08/how-rsa-got-hacked/
+*Dark Reading — RSA SecurID Attack Began With Excel File Rigged With Flash Zero-Day*. https://www.darkreading.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day
