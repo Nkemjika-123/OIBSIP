@@ -40,3 +40,41 @@ The significance of this threat is supported by cybersecurity research. Verizon'
 5. Zetter, K. (2011, March 17). *Hacker Spies Hit Security Firm RSA*. WIRED. https://www.wired.com/2011/03/rsa-hacked/
 
 6. Culafi, A., & Waldman, A. (2020, August 4). *Twitter Breach Raises Concerns Over Phone Phishing*. Dark Reading / TechTarget. https://www.techtarget.com/cybersecurity/news/252487156/Twitter-breach-raises-concerns-over-phone-phishing
+
+## Phishing Attacks
+
+Phishing is a form of social engineering in which cybercriminals impersonate trusted individuals, companies, or organizations to trick victims into revealing sensitive information, clicking malicious links, opening infected attachments, or providing unauthorized access to computer systems. Phishing commonly exploits human emotions such as fear, curiosity, trust, and urgency to persuade victims to take action without verifying the authenticity of a message (CISA, 2024).
+
+Phishing is a significant cybersecurity threat because it can affect both individuals and organizations. A successful attack may result in stolen login credentials, financial fraud, malware infections, data breaches, and unauthorized access to corporate networks.
+
+### Types of Phishing Attacks
+
+### 1. Spear Phishing
+
+Spear phishing is a targeted phishing attack aimed at a specific individual or a small group of people. Unlike generic phishing emails, spear-phishing messages are personalized using information about the target, such as their name, job title, employer, colleagues, or current projects.
+
+**How it works:**
+
+An attacker researches a target and creates a message that is convincing and appears to come from a trusted colleague, manager, supplier, or service provider. The message may contain a malicious link or attachment designed to steal credentials or install malware.
+
+**Scenario:**
+
+An employee receives an email that appears to come from their manager requesting that they review an attached company document. Opening the attachment may execute malicious code or lead to credential theft.
+
+**Reference:**
+[Center for Internet Security (CIS) — MS-ISAC Security Primer: Spear Phishing](https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-spear-phishing)
+
+### 2. Whaling
+
+Whaling is a specialized form of spear phishing that targets senior executives and other high-profile individuals, such as chief executive officers (CEOs), chief financial officers (CFOs), and directors. These individuals may have access to confidential business information, financial accounts, or the authority to approve significant transactions.
+
+**How it works:**
+
+An attacker impersonates a trusted business partner, senior colleague, legal adviser, or financial institution. The message may request confidential documents, employee information, or an urgent payment. Because the message appears to come from an authoritative source, the recipient may feel pressured to comply.
+
+**Scenario:**
+
+A finance employee receives an email apparently from the CEO requesting an urgent transfer of company funds to a new supplier account. If the employee does not independently verify the request, the organization may lose money.
+
+**Reference:**
+[Canadian Centre for Cyber Security — Don't Take the Bait: Recognize and Avoid Phishing Attacks](https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks)
