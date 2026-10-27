@@ -140,9 +140,33 @@ The spreadsheet exploited a previously unknown Adobe Flash vulnerability and ins
 
 The attackers subsequently obtained information relating to RSA's SecurID two-factor authentication products. The incident was particularly significant because SecurID technology was used by organizations to strengthen authentication. Later, Lockheed Martin and other defense contractors were targeted in related activity involving SecurID credentials or tokens.
 
-**References:**
+**Impact**
 
-*WIRED — How RSA Got Hacked*.
-https://www.wired.com/2011/08/how-rsa-got-hacked/
+The breach exposed sensitive information associated with RSA's authentication technology and created security concerns for organizations that relied on SecurID. RSA subsequently announced measures to replace most of the affected security tokens.
 
-*Dark Reading — RSA SecurID Attack Began With Excel File Rigged With Flash Zero-Day*. https://www.darkreading.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day
+**References**
+
+*WIRED — Researchers Uncover RSA Phishing Attack, Hiding in Plain Sight (August 26, 2011)*. https://www.wired.com/2011/08/how-rsa-got-hacked/
+
+*Dark Reading — RSA SecurID Attack Began With Excel File Rigged With Flash Zero-Day (April 1, 2011)*. https://www.darkreading.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day
+
+## Preventive Measures Against These Attacks
+
+Organizations and individuals can reduce phishing risks by implementing the following measures.
+
+### 1. Provide Regular Security Awareness Training
+
+Train employees to recognize suspicious emails, unexpected attachments, unusual payment requests and messages that create a false sense of urgency. Use authorized phishing simulations to assess awareness and teach staff how to report suspicious messages.
+
+### 2. Verify Messages Before Taking Action
+
+Avoid clicking unexpected links or opening suspicious attachments. Check the sender's full email address and verify unusual requests through a separate, trusted communication channel. For financial transfers or sensitive requests, follow established approval procedures rather than relying on email alone.
+
+### 3. Implement Multi-Factor Authentication (MFA)
+
+Require multi-factor authentication for email, remote access, financial systems and other important accounts. Where available, use phishing-resistant authentication, such as FIDO2 security keys or passkeys, because these provide stronger protection against credential-harvesting websites than passwords alone.
+
+### 4. Deploy Technical Email and Access Controls
+
+Use email filtering, anti-malware protection and domain authentication controls such as SPF, DKIM and DMARC to reduce fraudulent messages and sender impersonation. Keep operating systems and applications updated, restrict administrative privileges using the principle of least privilege, and monitor accounts for unusual login activity.ing.com/cyberattacks-data-breaches/rsa-secureid-attack-began-with-excel-file-rigged-with-flash-zero-day
+
