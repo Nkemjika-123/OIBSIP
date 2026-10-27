@@ -62,7 +62,7 @@ An attacker researches a target and creates a message that is convincing and app
 An employee receives an email that appears to come from their manager requesting that they review an attached company document. Opening the attachment may execute malicious code or lead to credential theft.
 
 **Reference:**
-[Center for Internet Security (CIS) — MS-ISAC Security Primer: Spear Phishing](https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-spear-phishing)
+*Center for Internet Security (CIS) — MS-ISAC Security Primer: Spear Phishing*. https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-spear-phishing
 
 ### 2. Whaling
 
