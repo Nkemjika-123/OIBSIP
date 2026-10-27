@@ -485,7 +485,9 @@ Employees should be encouraged to report suspected phishing emails, unusual requ
 | Avoid unknown USB devices, links, and downloads | ☐ |
 | Report suspicious activity immediately | ☐ |
 
-**Conclusion** Employees are often the first line of defense against social engineering attacks. Regular awareness training, strong authentication practices and clear reporting procedures can significantly reduce an organization's exposure to phishing, pretexting, baiting and other human-focused threats.
+**Conclusion**
+
+Employees are often the first line of defense against social engineering attacks. Regular awareness training, strong authentication practices and clear reporting procedures can significantly reduce an organization's exposure to phishing, pretexting, baiting and other human-focused threats.
 
 ## References
 
