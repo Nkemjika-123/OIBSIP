@@ -77,7 +77,7 @@ An attacker impersonates a trusted business partner, senior colleague, legal adv
 A finance employee receives an email apparently from the CEO requesting an urgent transfer of company funds to a new supplier account. If the employee does not independently verify the request, the organization may lose money.
 
 **Reference:**
-*Canadian Centre for Cyber Security — Don't Take the Bait: Recognize and Avoid Phishing Attacks*.(https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks)
+*Canadian Centre for Cyber Security — Don't Take the Bait: Recognize and Avoid Phishing Attacks*. https://www.cyber.gc.ca/en/guidance/dont-take-bait-recognize-and-avoid-phishing-attacks
 
 **3. Vishing (Voice Phishing)**
 
@@ -124,7 +124,7 @@ A typical phishing attack follows these stages:
 6. **Exploitation:**
    The attacker may steal data, commit financial fraud, impersonate the victim, or move further into an organization's          network.
 
-**Reference:** *CIS — MS-ISAC Security Primer: Spear Phishing*. (https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-spear-phishing)
+**Reference:** *CIS — MS-ISAC Security Primer: Spear Phishing*. https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-spear-phishing
 
 ## Real-World Case Study: The 2011 RSA SecurID Spear-Phishing Attack
 
