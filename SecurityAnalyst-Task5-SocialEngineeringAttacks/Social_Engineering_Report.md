@@ -432,3 +432,7 @@ An attacker may impersonate an IT support technician and contact employees who a
 1. SANS Institute. *A Multi-Level Defense Against Social Engineering*. [https://www.sans.org/white-papers/920](https://www.sans.org/white-papers/920)
 
 2. Cybersecurity and Infrastructure Security Agency (CISA). *Avoiding Social Engineering and Phishing Attacks*. [https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks](https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks)
+
+## Comparison of Social Engineering Attacks
+The following table compares the main social engineering attack types, their primary targets, the psychological factors they exploit and the most effective countermeasures.
+
