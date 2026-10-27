@@ -444,3 +444,55 @@ The following table compares the main social engineering attack types, their pri
 | **Pretexting** | Employees, customers, IT personnel, and individuals with access to sensitive information | Trust, authority, familiarity, and urgency | Independently verify identities and requests through trusted communication channels |
 | **Baiting** | Employees, students, and computer users | Curiosity, greed, and desire for free products or services | Never connect unknown USB devices. Download software only from trusted sources |
 | **Quid Pro Quo** | Employees or individuals seeking technical assistance or other benefits | Reciprocity, trust, and the desire for assistance or rewards | Verify support personnel and never disclose credentials or grant unauthorized access in exchange for a service |
+
+## Summary of This Comparison
+
+Although these attacks use different methods, they all exploit human behaviour to achieve an attacker's objective. Phishing commonly uses deceptive communications, pretexting relies on a fabricated identity or scenario, baiting offers something tempting, and quid pro quo promises a service or benefit in exchange for cooperation.
+
+Organizations can reduce the risks through security awareness training, identity verification, access controls, technical safeguards and clear procedures for reporting suspicious activity.
+
+## Organisational Recommendations: 5-Point Employee Security Awareness Training Checklist
+
+To reduce the risk of successful social engineering attacks, organizations should implement the following employee security awareness practices:
+
+### 1. Verify Identity Before Sharing Information
+
+Employees should always verify the identity of anyone requesting sensitive information, credentials, financial data or system access. Verification should be performed through official company channels rather than relying solely on emails, text messages or phone calls.
+
+### 2. Recognize Common Social Engineering Techniques
+
+Training should help employees identify phishing emails, pretexting attempts, baiting attacks, suspicious links, unexpected attachments and fraudulent requests that create a sense of urgency or authority.
+
+### 3. Follow Safe Credential and Authentication Practices
+
+Employees should never share passwords with anyone, use strong, unique passwords and enable Multi-Factor Authentication (MFA) wherever possible. They should also understand that legitimate IT personnel should never ask them to disclose their passwords.
+
+### 4. Exercise Caution with External Devices and Downloads
+
+Staff should avoid connecting unknown USB drives, downloading software from untrusted sources or opening unexpected files and attachments. Any suspicious device should be reported to the IT or security team.
+
+### 5. Report Suspicious Activity Immediately
+
+Employees should be encouraged to report suspected phishing emails, unusual requests, lost devices, suspicious phone calls or other potential security incidents as soon as they are identified. Early reporting can significantly reduce the impact of an attack.
+
+## Security Awareness Training Checklist
+
+| Checklist Item | Completed |
+|---|---|
+| Verify identities before sharing sensitive information | ☐ |
+| Recognize phishing, pretexting, baiting, and other social engineering tactics | ☐ |
+| Use strong passwords and MFA | ☐ |
+| Avoid unknown USB devices, links, and downloads | ☐ |
+| Report suspicious activity immediately | ☐ |
+
+**Conclusion** Employees are often the first line of defense against social engineering attacks. Regular awareness training, strong authentication practices and clear reporting procedures can significantly reduce an organization's exposure to phishing, pretexting, baiting and other human-focused threats.
+
+## References
+
+1. Cybersecurity and Infrastructure Security Agency (CISA). *Avoiding Social Engineering and Phishing Attacks*. [https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks](https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks)
+
+2. Cybersecurity and Infrastructure Security Agency (CISA). *Phishing Guidance: Stopping the Attack Cycle at Phase One*. [https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one](https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one)
+
+3. SANS Institute. *Methods for Understanding and Reducing Social Engineering Attacks*. [https://www.sans.org/white-papers/36972/](https://www.sans.org/white-papers/36972/)
+
+4. Cybersecurity and Infrastructure Security Agency (CISA). *Using Caution with USB Drives*. [https://www.cisa.gov/news-events/news/using-caution-usb-drives](https://www.cisa.gov/news-events/news/using-caution-usb-drives)
