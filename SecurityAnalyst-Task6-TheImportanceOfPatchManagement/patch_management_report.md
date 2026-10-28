@@ -121,3 +121,108 @@ As a result, attackers gained access to Equifax systems and exposed the personal
 
 10. Federal Trade Commission (FTC). *Equifax to Pay $575 Million as Part of Settlement Related to 2017 Data Breach.*  
     [https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach](https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach)
+
+## Consequences of Not Patching Systems
+
+Failure to apply security patches promptly can leave known vulnerabilities open to exploitation. Cybercriminals may use these weaknesses to access confidential information, deploy ransomware, disrupt business operations and compromise entire networks. Poor patch management can also result in regulatory penalties, legal claims, recovery expenses and loss of customer trust.
+
+The following are major consequences of inadequate patch management:
+
+### 1. Data Breaches and Loss of Sensitive Information
+
+Unpatched software can provide attackers with an entry point into an organisation's network. Once inside, attackers may steal personal information, financial records, login credentials, intellectual property and other confidential data. A breach can lead to identity theft, legal action, incident investigation costs and reputational damage.
+
+IBM's 2025 Cost of a Data Breach Report estimated the global average cost of a data breach at US$4.44 million. This figure covers the overall cost of studied breaches, not only those caused by unpatched vulnerabilities.
+
+In 2017, attackers exploited an unpatched Apache Struts vulnerability at Equifax, contributing to a breach that affected approximately 147 million people. The incident demonstrates how failing to identify and patch a known vulnerability can expose highly sensitive information.
+
+### 2. Ransomware Attacks and Operational Disruption
+
+Attackers can exploit unpatched systems to install ransomware, encrypt files, spread across networks and interrupt essential services. An organisation may lose access to business applications, experience prolonged downtime or need to rebuild affected systems. Even when backups are available, restoring operations can require considerable time and resources.
+
+Verizon's 2025 Data Breach Investigations Report found that ransomware was present in 44% of the breaches analysed. The same report found that exploitation of vulnerabilities accounted for 20% of initial access vectors in the relevant breach dataset. These figures show the importance of vulnerability remediation, although they do not mean every ransomware incident resulted from missing patches.
+
+The 2017 WannaCry outbreak exploited Windows vulnerabilities addressed by Microsoft's MS17-010 security update. Many affected systems had not installed the update before the outbreak, allowing the malware to spread and disrupt organisations worldwide.
+
+### 3. Compliance Violations and Regulatory Penalties
+
+Organisations that process personal, financial or health information may be subject to laws, regulations, contracts and security standards requiring appropriate protection of systems and data. Failure to manage known vulnerabilities may indicate that an organisation did not implement reasonable security measures. Depending on the applicable rules and circumstances, this may result in regulatory investigations, corrective orders, fines or legal claims.
+
+Following the Equifax breach, the U.S. Federal Trade Commission, Consumer Financial Protection Bureau and states announced a settlement of at least US$575 million, potentially rising to US$700 million under the settlement terms. The FTC alleged, among other security failures, that Equifax had failed to patch its network after receiving notice of a critical vulnerability.
+
+This example demonstrates that inadequate vulnerability management can have significant financial and regulatory consequences. However, not every failure to patch automatically constitutes a legal violation; the outcome depends on the applicable requirements and facts.
+
+### 4. Financial Losses and Reputational Damage
+
+The financial impact of an unpatched vulnerability can extend well beyond the initial attack. Organisations may face incident response expenses, forensic investigations, system restoration costs, loss of revenue, customer compensation, legal fees and increased security spending. Customers and business partners may also lose confidence in an organisation that fails to protect its systems and information.
+
+IBM's 2025 report estimated that the average cost of a data breach in the United States reached US$10.22 million, compared with the global average of US$4.44 million. These figures illustrate the potential scale of breach-related losses, but actual costs vary considerably by industry, location and incident.
+
+### 5. Increased Exposure to Known Exploits
+
+When vendors release security patches, technical details about the underlying vulnerabilities may become publicly available. Attackers can use this information to identify systems that remain unpatched and target them with existing or newly developed exploits. The longer a vulnerable system remains exposed, the greater the opportunity for exploitation.
+
+Verizon's 2025 Data Breach Investigations Report found that exploitation of vulnerabilities as an initial access method increased by 34% compared with the previous report, reaching 20% of initial access vectors in the analysed dataset. Verizon also reported a median remediation time of 32 days for the perimeter-device vulnerabilities examined, with only about 54% fully remediated during the year.
+
+These findings highlight the importance of maintaining an accurate asset inventory, prioritising actively exploited vulnerabilities and measuring how quickly patches are deployed and verified.
+
+## References
+
+1. **National Institute of Standards and Technology (NIST). (2022).** *Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology (SP 800-40 Rev. 4).*  
+   [https://csrc.nist.gov/pubs/sp/800/40/r4/final](https://csrc.nist.gov/pubs/sp/800/40/r4/final)
+
+2. **Cybersecurity and Infrastructure Security Agency (CISA).** *Known Exploited Vulnerabilities (KEV) Catalog.*  
+   [https://www.cisa.gov/known-exploited-vulnerabilities-catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+
+3. **Verizon Business. (2025).** *2025 Data Breach Investigations Report.*  
+   [https://www.verizon.com/business/resources/reports/dbir/](https://www.verizon.com/business/resources/reports/dbir/)
+
+4. **IBM. (2025).** *Cost of a Data Breach Report 2025.*  
+   [https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai](https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai)
+
+5. **Federal Trade Commission (FTC). (2019).** *Equifax to Pay $575 Million as Part of Settlement Related to 2017 Data Breach.*  
+   [https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach](https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach)
+
+6. **Microsoft Security Response Center. (2017).** *WannaCrypt Ransomware Worm Targets Out-of-Date Systems.*  
+   [https://www.microsoft.com/en-us/security/blog/2017/05/12/wannacrypt-ransomware-worm-targets-out-of-date-systems/](https://www.microsoft.com/en-us/security/blog/2017/05/12/wannacrypt-ransomware-worm-targets-out-of-date-systems/)
+
+7. **MITRE Corporation.** *Common Vulnerabilities and Exposures (CVE).*  
+   [https://www.cve.org/](https://www.cve.org/)
+
+8. **National Institute of Standards and Technology (NIST).** *National Vulnerability Database (NVD).*  
+   [https://nvd.nist.gov/](https://nvd.nist.gov/)
+
+   ## Patch Management Lifecycle
+
+An effective patch management program follows a structured lifecycle that helps organizations identify vulnerabilities, evaluate risk, safely deploy updates and verify that security weaknesses have been successfully remediated. According to SP 800-40 Rev. 4, *Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology*, patch management includes identifying, prioritizing, acquiring, installing and verifying patches throughout the organization.
+
+### 1. Discovery
+
+The first phase involves identifying assets, software, operating systems and vulnerabilities within the organization's environment. Security teams monitor vendor advisories, the Common Vulnerabilities and Exposures (CVE) database and vulnerability scanning tools to discover systems requiring updates. Vulnerabilities are assigned unique CVE identifiers so they can be consistently tracked and managed.
+
+Organisations cannot patch systems effectively if they do not know which devices and software they own or which vulnerabilities affect them. This highlights the importance of discovery.
+
+### 2. Assessment
+
+Once vulnerabilities are identified, organisations assess their severity and potential impact. This stage typically uses the Common Vulnerability Scoring System (CVSS), which assigns numerical scores ranging from 0 to 10 and classifies vulnerabilities as Low, Medium, High or Critical. The assessment process helps determine which patches should be prioritised first.
+
+Assessment helps organisations focus limited time and resources on vulnerabilities that pose the greatest risk.
+
+### 3. Testing
+
+Before deployment, patches should be tested in a controlled environment to ensure they do not disrupt business operations or introduce compatibility issues. Patch testing is recommended to minimise operational risks while still maintaining timely remediation of vulnerabilities.
+
+Testing reduces the risk of compatibility problems, failed installations and unexpected downtime.
+
+### 4. Deployment
+
+After successful testing, patches are deployed to production systems. Critical security updates are usually prioritised and installed according to organisational patch management policies and risk assessments. Timely deployment reduces the window of opportunity for attackers to exploit known vulnerabilities.
+
+A patch only reduces the vulnerability of a system when the update or another effective remediation measure has actually been applied.
+
+### 5. Verification
+
+The final phase confirms that patches were installed successfully and that vulnerabilities have been eliminated. Organisations perform vulnerability scans, system audits and compliance checks to verify patch effectiveness and ensure all systems remain protected.
+
+Without verification, an organisation may assume that a vulnerability has been fixed while some systems still remain exposed.
+
