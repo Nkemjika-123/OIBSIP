@@ -226,3 +226,136 @@ The final phase confirms that patches were installed successfully and that vulne
 
 Without verification, an organisation may assume that a vulnerability has been fixed while some systems still remain exposed.
 
+## References
+
+1. National Institute of Standards and Technology (NIST). *SP 800-40 Rev. 4: Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology.*  
+   [NIST CSRC - SP 800-40 Rev. 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final)  
+   [NIST Publication Page](https://www.nist.gov/publications/guide-enterprise-patch-management-planning-preventive-maintenance-technology)
+
+2. Cybersecurity and Infrastructure Security Agency (CISA). *Patch Smarter, Not Harder.*  
+   [https://www.cisa.gov/news-events/news/patch-smarter-not-harder](https://www.cisa.gov/news-events/news/patch-smarter-not-harder)
+
+3. National Vulnerability Database (NVD). *Common Vulnerability Scoring System (CVSS).*  
+   [https://nvd.nist.gov/vuln-metrics/cvss](https://nvd.nist.gov/vuln-metrics/cvss)
+
+4. National Vulnerability Database (NVD). *CVE-2017-0144 Vulnerability Detail.*  
+   [https://nvd.nist.gov/vuln/detail/CVE-2017-0144](https://nvd.nist.gov/vuln/detail/CVE-2017-0144)
+
+5. MITRE Corporation. *Common Vulnerabilities and Exposures (CVE) Program.*  
+   [https://www.cve.org/](https://www.cve.org/)
+
+6. Imperva. *CVE and CVSS Vulnerability Overview.*  
+   [https://www.imperva.com/learn/application-security/cve-cvss-vulnerability/](https://www.imperva.com/learn/application-security/cve-cvss-vulnerability/)
+
+---
+
+## Prioritised 7-Step Patch Management Checklist for Organisations
+
+An effective patch management program should follow a structured and risk-based approach. NIST SP 800-40 Rev. 4 recommends treating patch management as a critical preventive maintenance process that reduces the likelihood of compromises, data breaches and operational disruptions.
+
+References: [NIST SP 800-40 Rev. 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final) and [NIST Publication Page](https://www.nist.gov/publications/guide-enterprise-patch-management-planning-preventive-maintenance-technology).
+
+### 1. Maintain a Complete Asset Inventory (Highest Priority)
+
+Organisations should maintain an up-to-date inventory of all hardware, operating systems, applications, cloud resources and network devices. Systems that are not known cannot be patched or protected effectively.
+
+**Checklist:**
+
+- [ ] Identify all IT assets.
+- [ ] Record software versions.
+- [ ] Identify unsupported systems.
+- [ ] Maintain an asset database.
+
+**References:** [NIST SP 800-40 Rev. 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final).
+
+### 2. Continuously Monitor for New Vulnerabilities
+
+Security teams should regularly monitor security advisories, vendor notifications, the Common Vulnerabilities and Exposures (CVE) database and the National Vulnerability Database (NVD) to identify newly disclosed vulnerabilities affecting organisational systems.
+
+**Checklist:**
+
+- [ ] Monitor CVE announcements.
+- [ ] Subscribe to vendor security alerts.
+- [ ] Review NVD updates.
+- [ ] Use vulnerability scanning tools.
+
+**References:** [MITRE CVE Program](https://www.cve.org/) and [National Vulnerability Database](https://nvd.nist.gov/).
+
+### 3. Prioritise Vulnerabilities Based on Risk
+
+Not all vulnerabilities require the same response time. Organisations should assess vulnerabilities using Common Vulnerability Scoring System (CVSS) ratings and prioritise remediation based on severity, exploitability, business impact and evidence of active exploitation.
+
+**Checklist:**
+
+- [ ] Review CVSS scores.
+- [ ] Identify Critical and High-risk vulnerabilities.
+- [ ] Prioritise internet-facing systems.
+- [ ] Consider business impact.
+- [ ] Check the CISA Known Exploited Vulnerabilities (KEV) Catalog.
+
+**References:** [NVD - CVSS](https://nvd.nist.gov/vuln-metrics/cvss) and [CISA - Patch Smarter, Not Harder](https://www.cisa.gov/news-events/news/patch-smarter-not-harder).
+
+### 4. Test Patches Before Deployment
+
+Before deploying updates to production systems, patches should be tested in a controlled environment to identify compatibility issues, performance impacts and potential service disruptions.
+
+**Checklist:**
+
+- [ ] Use a testing environment.
+- [ ] Verify system compatibility.
+- [ ] Check application functionality.
+- [ ] Prepare rollback procedures.
+
+**References:** [NIST SP 800-40 Rev. 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final).
+
+### 5. Deploy Patches Promptly
+
+Once testing is complete, patches should be deployed according to organisational policies and risk priorities. Timely deployment significantly reduces the attack window available to cybercriminals. The WannaCry ransomware outbreak demonstrated the consequences of failing to install available updates promptly.
+
+**Checklist:**
+
+- [ ] Deploy critical patches promptly according to risk and remediation deadlines.
+- [ ] Use automated patch management tools where appropriate.
+- [ ] Follow documented deployment schedules.
+- [ ] Include remote and cloud systems.
+
+**References:** [Microsoft Security Bulletin MS17-010](https://learn.microsoft.com/en-us/security-updates/Securitybulletins/2017/ms17-010) and [Microsoft Security Blog - WannaCrypt Ransomware](https://www.microsoft.com/en-us/security/blog/2017/05/12/wannacrypt-ransomware-worm-targets-out-of-date-systems/).
+
+### 6. Verify Patch Installation and Effectiveness
+
+Organisations should confirm that patches were successfully installed and that vulnerabilities have been remediated. Verification should include vulnerability scanning, compliance checks and audit logging.
+
+**Checklist:**
+
+- [ ] Perform post-deployment scans.
+- [ ] Confirm vulnerability remediation.
+- [ ] Review system logs.
+- [ ] Document installation results.
+
+**References:** [NIST SP 800-40 Rev. 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final) and [NVD - CVSS](https://nvd.nist.gov/vuln-metrics/cvss).
+
+### 7. Review, Report and Improve the Process
+
+Patch management should be continuously evaluated and improved. Organisations should measure patch compliance, track remediation timelines, identify recurring problems and update policies when necessary. Remediation should focus on vulnerabilities that present the greatest operational risk.
+
+**Checklist:**
+
+- [ ] Track patch compliance rates.
+- [ ] Measure remediation times.
+- [ ] Review patch management policies.
+- [ ] Conduct regular audits.
+- [ ] Identify recurring problems and implement improvements.
+
+**References:** [CISA - Patch Smarter, Not Harder](https://www.cisa.gov/news-events/news/patch-smarter-not-harder) and [NIST SP 800-40 Rev. 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final).
+
+## 7-Step Patch Management Checklist Summary
+
+| Priority | Action |
+|---|---|
+| 1 | Maintain a complete asset inventory. |
+| 2 | Continuously monitor for new vulnerabilities. |
+| 3 | Prioritise vulnerabilities using CVSS and risk assessment. |
+| 4 | Test patches before deployment. |
+| 5 | Deploy patches promptly. |
+| 6 | Verify successful installation and remediation. |
+| 7 | Review, report and continuously improve the process. |
