@@ -359,3 +359,28 @@ Patch management should be continuously evaluated and improved. Organisations sh
 | 5 | Deploy patches promptly. |
 | 6 | Verify successful installation and remediation. |
 | 7 | Review, report and continuously improve the process. |
+
+## Conclusion
+
+A successful patch management strategy is not simply about installing updates. It requires asset visibility, vulnerability monitoring, risk-based prioritisation, controlled testing, timely deployment, verification and continuous improvement. Organisations that follow these seven steps are significantly better positioned to prevent attacks that exploit known vulnerabilities.
+
+## References
+
+1. National Institute of Standards and Technology (NIST). *SP 800-40 Rev. 4: Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology.*  
+   [https://csrc.nist.gov/pubs/sp/800/40/r4/final](https://csrc.nist.gov/pubs/sp/800/40/r4/final)
+
+2. Cybersecurity and Infrastructure Security Agency (CISA). *Patch Smarter, Not Harder.*  
+   [https://www.cisa.gov/news-events/news/patch-smarter-not-harder](https://www.cisa.gov/news-events/news/patch-smarter-not-harder)
+
+3. National Vulnerability Database (NVD). *Common Vulnerability Scoring System (CVSS).*  
+   [https://nvd.nist.gov/vuln-metrics/cvss](https://nvd.nist.gov/vuln-metrics/cvss)
+
+4. National Vulnerability Database (NVD). *CVE-2017-0144 Vulnerability Detail.*  
+   [https://nvd.nist.gov/vuln/detail/CVE-2017-0144](https://nvd.nist.gov/vuln/detail/CVE-2017-0144)
+
+5. Microsoft. *Microsoft Security Bulletin MS17-010 - Critical.*  
+   [https://learn.microsoft.com/en-us/security-updates/Securitybulletins/2017/ms17-010](https://learn.microsoft.com/en-us/security-updates/Securitybulletins/2017/ms17-010)
+
+6. MITRE Corporation. *Common Vulnerabilities and Exposures (CVE) Program.*  
+   [https://www.cve.org/](https://www.cve.org/)
+   
